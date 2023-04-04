@@ -3,7 +3,7 @@ We, as group of three people, present our work here and share it with you withou
 
 ### Contact
 
-Deniz S \n
+Deniz S
 Zübeyir N
 Mustafa Y
 
