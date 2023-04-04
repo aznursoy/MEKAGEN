@@ -1,5 +1,5 @@
 ## WELCOME TO MEKAGEN ~ GENETICS OF ENGINEERING
-We, as group of three people, present our work here and share it with you without any constrains
+We, as group of three people, present our work here and share it with you without any constraints
 
 ### Contact
 
