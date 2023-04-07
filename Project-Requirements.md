@@ -6,7 +6,12 @@ _Each requirement are put with consultation and consensus at which we arrived un
 
 ## Requirements
 
-	- Req1
-	- Req2
-	- ...
+- Should be autonomous
+- Should be compatible with ROS
+- Easy to manufacture with ROMER's capabilities
+- Have somee payloads
+- Easy to charge and should favor self-charging
+- Be capable of indoor and outdoor use
+- Carry some load/weight
+- ...
 
