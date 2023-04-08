@@ -57,6 +57,21 @@
 		- Memory: 8 GB DDR3L RAM
 		- Storage: 128 GB SSD
 
+* Adept MobileRobots Pioneer 3-DX
+	- ROS compatible
+	- Two wheel differential drive
+	- Max Speed: 1.2 m/s
+	- Max climbing degree: 14 degrees
+	- Run time: 8-10 h
+	- 5 V @ 1.5 A switched or 12 V @ 2.5 A switched
+	- Dim 455*381*237 mm
+	- Hokuyo URG-04LX-UG01 laser rangefinder, IMU, Sonar range sensor, Bumper sensors
 
 
-
+* KUKA KMR iiwa
+	- ROS compatible
+	- Dim 700*1080*630 mm
+	- Max speed 1 m/s
+	- Payload: 7 or 14 kg (changing model to model)
+	- Differential drive with four wheels
+	- 2D LiDAR, IMU Camera, Microphone, Speaker
