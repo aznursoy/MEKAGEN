@@ -1,0 +1,62 @@
+*Clearpath Robotics' Husky robot
+	- 75 kg (max) load capacity
+	- 4 wheels
+	- It has various sensors, including LIDAR, IMU, GPS, and a camera.
+	- open source serial protocol and offer API support for ROS, and options for C++ and Python
+	- Differential drive
+	- Dim l = 991 mm, w = 610 mm, h = 394 mm (external dims)
+	- Run time: 3h
+	- max speed: 1 m/s
+	- user power: 5V, 12V and 24V fused at 5A each
+	- Suitable for further installation
+
+*Clearpath Robotics Jackal robot
+	- ROS compatible
+	- Dim 508 x 430 x 250 mm
+	- Max speed: 2 m/s
+	- Run time: 4h
+	- Max payload: 20 kg
+	- 2D LiDAR, IMU, GPS receiver, wheel encoders, bumper sensors
+	- User Power: 5V at 5A, 12V at 10A, 24V at 20A
+	FOR CLEARPATH ROBOTS A INFO SHEET HAS BEEN UPLOADED
+
+*TurtleBot3
+
+	- ROS compatible
+	- offered in various sizes (e.g., 138*178*192 mm)
+	- Differential drive with two wheels
+	- Maximum speed: 0.22 m/s
+	- Maximum climbing angle: 12 degrees
+	- Battery: 11.1 V 1800 mAh Li-Po
+	- Operating time: approximately 2 hours
+	- Sensors:
+		- 360-degree camera (Intel RealSense D435i)
+		- Inertial Measurement Unit (IMU)
+		- Wheel encoders
+		- Bumper sensors
+	- Single-board computer: Raspberry Pi 3 or 4
+	- Microcontroller: OpenCR1.0
+
+*Fetch Robotics' Fetch and Freight
+	- ROS compatible
+	- Dim: 1042*711*1170 mm 
+	- Differential drive with two wheels
+	- Maximum speed: 1 m/s
+	- Maximum climbing angle: 10 degrees
+	- Battery: 48 V 30 Ah Lithium Ion
+	- Operating time: approximately 10 hours
+	- Sensors:
+		- 2D LiDAR
+		- 3D depth camera
+		- RGB camera
+		- Inertial Measurement Unit (IMU)
+		- Wheel encoders
+		- Bumper sensors
+	- Also:
+		- Processor: Intel Core i5-5350U
+		- Memory: 8 GB DDR3L RAM
+		- Storage: 128 GB SSD
+
+
+
+
