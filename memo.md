@@ -2,12 +2,26 @@
 
 _Here, we share and publish our weekly progress report and decisions we made each week. They are sorted in newer to older order._
 
-## Week 5 - (03-09.04).23
+## Week 6 - (10-16.04).23
 ### Progress
 * ...
 
-### Decisions
+# Decisions
 * ...
+
+## Week 5 - (03-09.04).23
+### Progress
+* Preliminary literature survey has been done
+* GitHub functionalities have been studied
+* Available robots have been analyzed and compared
+* Problem definition has been improved
+
+### Decisions
+* Gantt chart will be finalized
+* Last changes on problem definition are to be done
+* Design and project requirements will be determined together with customer expectations.
+* A comparison chart will be prepared.
+* Mechanical design principal and features will be determined.
 
 ## Week 4 - (27.03-02.04).23
 ### Progress
