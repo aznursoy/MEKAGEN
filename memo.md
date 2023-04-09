@@ -6,7 +6,7 @@ _Here, we share and publish our weekly progress report and decisions we made eac
 ### Progress
 * ...
 
-# Decisions
+### Decisions
 * ...
 
 ## Week 5 - (03-09.04).23
