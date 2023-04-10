@@ -75,3 +75,89 @@
 	- Payload: 7 or 14 kg (changing model to model)
 	- Differential drive with four wheels
 	- 2D LiDAR, IMU Camera, Microphone, Speaker
+
+* MAGNI SILVER
+
+        - ROS compatible
+	- Dim: 417.40x439.09x265 mm  
+	- Speed: 0-1 m/s
+	- Rotation: 0.5 rad/s
+	- Drive System: 2 X 200W hub motors – differential drive
+	- Computer: Quad Core ARM A9 – Raspberry Pi 4 
+	- Payload: 100kg 
+	- Sensors: 
+	        - Odometery: Hall sensor odometery accurate to 2mm
+		- Camera: Raspberry Pi Camera Module V2
+	        - Sonar: 5x hc-sr04 sonar
+
+* ROSYZ-02
+
+	- ROS compatible
+	- Dim: 860X600X380 mm
+	- Two-wheel differential 
+	- Ros Communication: RS232
+	- Auto charging guide : Optional
+	- Control Board: STM32F10X ARM chip
+	- Optional Part Lists(Including Sensors):
+		- LIDAR
+		- Auto-Charge Dock
+		- 9DOF IMU
+		- RGBD Camera
+		- Keyboard & Mouse
+		- Joystick 
+
+* Innok Heros
+	
+	- ROS compatible
+	- Modular outdoor all-terrain robot platform
+	- 2 or 4 wheel drive configuration
+	- Payload: 200 kg
+	- Battery runtime 3-16 hours (depending on the payload)
+	- Software tool box providing:
+		- Mapping
+		- Obstacle avoidance
+		- Autonomous navigation
+		- People follow
+		- Mark lines, follow
+		- Train route, follow
+		- Surface processing
+	- Optional sensors and actors to be integrated:
+		- Cameras
+		- laser scanners
+   	        - GPS
+                - IMU
+                - Mutliple high-end PCs for data processing
+                - Robot arms
+                - Carry boxes and trailers
+                - Scraper bars (robotic snow plow)
+
+* Panther
+    
+    - ROS compatible
+    - Dimensions: 420 x 400 x 300 mm
+    - Ground clearance: 7cm
+    - Weight: 11 Kg
+    - Electronics and sensors:
+        - NVIDIA Jetson TX2
+        - unav board or roboteq SDC2130
+        - ZED stereloabs camera
+        - 2x encoder 1024 CPR
+        - LIDAR (upgrade coming soon)
+    - Motors: 2x P2052416 - 52.8W - 150Ncm
+    - Battery: 6S1P LiPo battery 22.2V - 5Ah
+    - Materials:
+        - Makerbeam’s frame
+        - Cover and Tracks in transparent PVC
+    Other:
+        - 2 speakers
+        - 2 microphones
+        - OLED strips
+
+
+
+
+
+
+
+
+
