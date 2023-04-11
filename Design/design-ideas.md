@@ -43,3 +43,63 @@ _Here we enter our ideat as draft and preliminary work of us._
 #### Motion Planning
 * ...
 
+
+## Manufacturing   Materials and Methods
+
+### Sigma Profiles
+* What to be used for
+* In which parts to be used
+* ...
+
+### 3D Printing
+* ...
+
+### Bending, Drilling etc.
+* ...
+
+## Payloads on the Robot
+
+### Camera
+
+* What camera? properties?
+* ...
+
+### Encoders
+
+* Are they needed? 
+
+### ...
+
+## Robot's Mechanics and Its Design
+
+* Easy to be charged, self-charge is desired but not an obligation
+* Sensor nest
+* Modularity
+* Neat look
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
