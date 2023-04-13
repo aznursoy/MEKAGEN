@@ -13,7 +13,7 @@ _Each requirement are put with consultation and consensus at which we arrived un
 - Easy to manufacture with ROMER's capabilities.
     Should be able to manufactured with below facilities:
        <br> 1. Laser Cut (Plexy, wood)
-        2. 3D Printer
+       <br> 2. 3D Printer
         3. Sheet Metal Cut
         4. Bending (The part to be bend should not be very detailed - 90 degree bending etc. possible)
         5. Thermoforming
