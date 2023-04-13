@@ -12,7 +12,7 @@ _Each requirement are put with consultation and consensus at which we arrived un
     It should also be adjustable to different load capacities. For example, pick-up load from a ground, and/or a table.
 - Easy to manufacture with ROMER's capabilities.
     Should be able to manufactured with below facilities:
-        1. Laser Cut (Plexy, wood)
+       <br> 1. Laser Cut (Plexy, wood)
         2. 3D Printer
         3. Sheet Metal Cut
         4. Bending (The part to be bend should not be very detailed - 90 degree bending etc. possible)
