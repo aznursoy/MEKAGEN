@@ -14,9 +14,9 @@ _Each requirement are put with consultation and consensus at which we arrived un
     Should be able to manufactured with below facilities:
        <br> 1. Laser Cut (Plexy, wood)
        <br> 2. 3D Printer
-        3. Sheet Metal Cut
-        4. Bending (The part to be bend should not be very detailed - 90 degree bending etc. possible)
-        5. Thermoforming
+       <br> 3. Sheet Metal Cut
+       <br> 4. Bending (The part to be bend should not be very detailed - 90 degree bending etc. possible)
+       <br> 5. Thermoforming
 - Easy to assemble.
     The robot should be easily assembled in-half a day when all-parts are readily manufactured.
 - Have some effective hot-plug payloads.
