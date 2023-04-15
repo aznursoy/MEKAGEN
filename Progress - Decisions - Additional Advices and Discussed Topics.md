@@ -20,6 +20,8 @@ _Here, we share and publish our weekly progress report and decisions we made eac
 * At the end of the project, when there are readily available two-robots , they should also be combinable; hence, sigma-profiles are of concern (i.e., hotplug). (13 Apr)
 * Knowing that encoder is necessary, design of encoder sensors that are suitable for hoverboard-wheel will be searched. Those researches may contain optical, electrical, magnetic sensors but not mechanical as mechanical sensors end up with tearing and wearing. (Any mechanical sensor that will not corrode is also considerable.) (13 Apr)
 * Search on battery need is necessary. Battery supply can be met from "Hoverboard Battery" as those are also designed for hoverboard-wheel needs. (13 Apr)
+* Literature Survey based on project (two-three wheel adv&dis, suspension, automization) will be searched more. (15 Apr)
+* Concepts will be sketched for a better presentation. (15 Apr)
 
 ### Additional Advices & Discussed Topics
 * Do not only focus on two-wheel hotplug robot concept. Even though the idea may not be adopted, it may help on creative thinking. (13 Apr)
