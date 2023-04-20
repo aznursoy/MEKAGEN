@@ -13,13 +13,22 @@ _Here we enter our ideat as draft and preliminary work of us._
 * High cost and complexity
 
 ### Four-Wheeled
-* 
+*   
 
 ### Three-Wheeled
 * ![(a) Two-wheel differential drive, (b) synchronous drive, (c) omnimobile robot with Swedish wheels, (d) omnimobile robot with active caster wheels, and (e) omnidirectional robot with active steerable wheels](three-wheels.png)
+* 
 
 ### Two-Wheeled
 * ...
+* Two indep wheel and free ball wheel
+* Road and obstacle detection through camera instead of LiDAR
+* Over a specified and defined terrain not for all
+* MUTUAL MOTION
+	* cannot the both be indep or dep, can arranged/ajdusted simultaneously
+	* how to detect other robot and its position and orientation together
+	* 
+
 
 ### Other Types
 * See our reference [Chung, W., & Iagnemma, K. (2016). Wheeled robots. Springer Handbook of Robotics, 575-594.](https://link.springer.com/chapter/10.1007/978-3-319-32552-1_24)
@@ -29,7 +38,12 @@ _Here we enter our ideat as draft and preliminary work of us._
 ### Handling Distortion
 
 #### Suspension System
-* ...
+* MahPerson
+* DoubleWishBone
+* Dumping effect of hooverboard wheel and its stiffness in the constext of of robot/vehicle's stability
+* Compatiiblity of suspension system to be used.
+* They all are dependent on style of driving.The betted the drive control better the terrain grab.
+* 
 
 #### Gimbal Stabilization
 * ...
@@ -67,6 +81,8 @@ _Here we enter our ideat as draft and preliminary work of us._
 ### Encoders
 
 * Are they needed? 
+* Optical Encoder
+* Magnetic encoders
 
 ### ...
 
