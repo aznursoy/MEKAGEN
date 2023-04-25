@@ -16,8 +16,7 @@ _Here we enter our ideat as draft and preliminary work of us._
 *   
 
 ### Three-Wheeled
-* ![(a) Two-wheel differential drive, (b) synchronous drive, (c) omnimobile robot with Swedish wheels, (d) omnimobile robot with active caster wheels, and (e) omnidirectional robot with active steerable wheels](three-wheels.png)
-* 
+* ![(a) Two-wheel differential drive, (b) synchronous drive, (c) omnimobile robot with Swedish wheels, (d) omnimobile robot with active caster wheels, and (e) omnidirectional robot with active steerable wheels](images/three-wheels.png)* 
 
 ### Two-Wheeled
 * ...
