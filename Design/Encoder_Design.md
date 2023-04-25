@@ -6,7 +6,8 @@ Comparison of magnetic and optical encoder:
 
 
 Encoder Design Ideas:
-!["Through hole absolute encoder"](images/Magnetic_Encoder1) 
+* ![Through-hole magnetic encoder](images/Magnetic_Encoder1.png)* 
+
 
 
 
