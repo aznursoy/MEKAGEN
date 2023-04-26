@@ -1,10 +1,32 @@
-Mounting of two robots design ideas:
+# Mounting of two robots design ideas:
+## Bracket Mounting
+...
+## Clamping
+...
+## Magnetic Mounting
+...
+## Docking Stations
+...
+## Universal Joints
+...
+## Couplings
+...
+
+# Suspension Systems
+## Spring Systems
+...
+## Dampers
+...
+## Anti-roll Bars
+...
+## Struts
+...
 
 
 
 
 
 
-
-Links:
-
+# Links:
+* [Suspension Systems](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=f1b742c172a0f953fbd75c512acb28698bd65cf6)
+* [Air spring Suspension](https://downloads.hindawi.com/archive/2015/974020.pdf)
