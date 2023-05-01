@@ -1,11 +1,11 @@
-Comparison of magnetic and optical encoder:
+## Comparison of magnetic and optical encoder:
 
 
 
 
 
 
-Encoder Design Ideas:
+## Encoder Design Ideas:
 * ![Through-hole magnetic encoder](images/Magnetic_Encoder1.png)* 
 
 
@@ -13,8 +13,8 @@ Encoder Design Ideas:
 
 
 Links:
+* [Hoverboard motor with built in magnetic encoder](https://www.youtube.com/watch?v=8GpIuEcT-QM)
 
-https://www.youtube.com/watch?v=8GpIuEcT-QM
 
 
 ## Optical Encoder
