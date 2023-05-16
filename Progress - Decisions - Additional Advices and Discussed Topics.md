@@ -2,6 +2,24 @@
 
 _Here, we share and publish our weekly progress report and decisions we made each week. They are sorted in newer to older order._
 
+## Week 10 (8 May - 14 May 2023)
+### Progress
+*
+### Decisions
+*
+### Additional Advices & Discussed Topics
+*
+
+## Week 9 (1 May - 7 May 2023)
+### Progress
+### Decisions
+### Additional Advices & Discussed Topics
+
+## Week 8 (24 Apr - 30 Apr 2023)
+### Progress
+### Decisions
+### Additional Advices & Discussed Topics
+
 ## Week 7 (17 Apr - 23 Apr 2023)
 ### Progress
 ### Decisions
