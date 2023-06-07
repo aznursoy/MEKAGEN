@@ -1,0 +1,5 @@
+  File "/home/zubeyir48/ros2_ME462_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/motor_controller.py", line 5
+    from robot_controller.msg import
+                                    ^
+SyntaxError: invalid syntax
+

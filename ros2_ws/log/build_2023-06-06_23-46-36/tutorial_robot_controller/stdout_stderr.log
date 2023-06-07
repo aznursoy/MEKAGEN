@@ -1,0 +1,34 @@
+running develop
+Removing /home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/python3.10/site-packages/tutorial-robot-controller.egg-link (link to .)
+running egg_info
+writing ../../build/tutorial_robot_controller/tutorial_robot_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/tutorial_robot_controller/tutorial_robot_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/tutorial_robot_controller/tutorial_robot_controller.egg-info/entry_points.txt
+writing requirements to ../../build/tutorial_robot_controller/tutorial_robot_controller.egg-info/requires.txt
+writing top-level names to ../../build/tutorial_robot_controller/tutorial_robot_controller.egg-info/top_level.txt
+reading manifest file '../../build/tutorial_robot_controller/tutorial_robot_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/tutorial_robot_controller/tutorial_robot_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/python3.10/site-packages/tutorial_robot_controller
+copying /home/zubeyir48/ros2_ME462_ws/build/tutorial_robot_controller/build/lib/tutorial_robot_controller/pose_subscriber.py -> /home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/python3.10/site-packages/tutorial_robot_controller
+copying /home/zubeyir48/ros2_ME462_ws/build/tutorial_robot_controller/build/lib/tutorial_robot_controller/__init__.py -> /home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/python3.10/site-packages/tutorial_robot_controller
+copying /home/zubeyir48/ros2_ME462_ws/build/tutorial_robot_controller/build/lib/tutorial_robot_controller/turtle_controller.py -> /home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/python3.10/site-packages/tutorial_robot_controller
+copying /home/zubeyir48/ros2_ME462_ws/build/tutorial_robot_controller/build/lib/tutorial_robot_controller/first_node.py -> /home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/python3.10/site-packages/tutorial_robot_controller
+copying /home/zubeyir48/ros2_ME462_ws/build/tutorial_robot_controller/build/lib/tutorial_robot_controller/draw_circle.py -> /home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/python3.10/site-packages/tutorial_robot_controller
+byte-compiling /home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/python3.10/site-packages/tutorial_robot_controller/pose_subscriber.py to pose_subscriber.cpython-310.pyc
+byte-compiling /home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/python3.10/site-packages/tutorial_robot_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/python3.10/site-packages/tutorial_robot_controller/turtle_controller.py to turtle_controller.cpython-310.pyc
+byte-compiling /home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/python3.10/site-packages/tutorial_robot_controller/first_node.py to first_node.cpython-310.pyc
+byte-compiling /home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/python3.10/site-packages/tutorial_robot_controller/draw_circle.py to draw_circle.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/tutorial_robot_controller/tutorial_robot_controller.egg-info to /home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/python3.10/site-packages/tutorial_robot_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing draw_circle script to /home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/tutorial_robot_controller
+Installing pose_subscriber script to /home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/tutorial_robot_controller
+Installing test_node script to /home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/tutorial_robot_controller
+Installing turtle_controller script to /home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/tutorial_robot_controller
+writing list of installed files to '/home/zubeyir48/ros2_ME462_ws/build/tutorial_robot_controller/install.log'

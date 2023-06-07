@@ -1,0 +1,3 @@
+[console_scripts]
+kalbot_controller = kalbot_controller.kalbot_controller:main
+

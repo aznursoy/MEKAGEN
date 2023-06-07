@@ -1,0 +1,2 @@
+Invoking command in '/home/zubeyir48/ros2_ME462_ws/build/robot_controller': /usr/bin/cmake /home/zubeyir48/ros2_ME462_ws/src/robot_controller -DCMAKE_INSTALL_PREFIX=/home/zubeyir48/ros2_ME462_ws/install/robot_controller
+Invoked command in '/home/zubeyir48/ros2_ME462_ws/build/robot_controller' returned '1': /usr/bin/cmake /home/zubeyir48/ros2_ME462_ws/src/robot_controller -DCMAKE_INSTALL_PREFIX=/home/zubeyir48/ros2_ME462_ws/install/robot_controller

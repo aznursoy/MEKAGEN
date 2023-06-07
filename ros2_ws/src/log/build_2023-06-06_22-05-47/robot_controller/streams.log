@@ -1,0 +1,33 @@
+[0.455s] Invoking command in '/home/zubeyir48/ros2_ME462_ws/src/robot_controller': PYTHONPATH=/home/zubeyir48/ros2_ME462_ws/src/build/robot_controller/prefix_override:/home/zubeyir48/ros2_ME462_ws/src/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/robot_controller build --build-base /home/zubeyir48/ros2_ME462_ws/src/build/robot_controller/build install --record /home/zubeyir48/ros2_ME462_ws/src/build/robot_controller/install.log --single-version-externally-managed
+[0.577s] running egg_info
+[0.577s] creating ../build/robot_controller/robot_controller.egg-info
+[0.577s] writing ../build/robot_controller/robot_controller.egg-info/PKG-INFO
+[0.577s] writing dependency_links to ../build/robot_controller/robot_controller.egg-info/dependency_links.txt
+[0.577s] writing entry points to ../build/robot_controller/robot_controller.egg-info/entry_points.txt
+[0.577s] writing requirements to ../build/robot_controller/robot_controller.egg-info/requires.txt
+[0.577s] writing top-level names to ../build/robot_controller/robot_controller.egg-info/top_level.txt
+[0.577s] writing manifest file '../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[0.578s] reading manifest file '../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[0.578s] writing manifest file '../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[0.578s] running build
+[0.578s] running build_py
+[0.578s] creating /home/zubeyir48/ros2_ME462_ws/src/build/robot_controller/build
+[0.578s] creating /home/zubeyir48/ros2_ME462_ws/src/build/robot_controller/build/lib
+[0.578s] creating /home/zubeyir48/ros2_ME462_ws/src/build/robot_controller/build/lib/robot_controller
+[0.578s] copying robot_controller/__init__.py -> /home/zubeyir48/ros2_ME462_ws/src/build/robot_controller/build/lib/robot_controller
+[0.578s] running install
+[0.579s] running install_lib
+[0.579s] creating /home/zubeyir48/ros2_ME462_ws/src/install/robot_controller/lib/python3.10/site-packages/robot_controller
+[0.579s] copying /home/zubeyir48/ros2_ME462_ws/src/build/robot_controller/build/lib/robot_controller/__init__.py -> /home/zubeyir48/ros2_ME462_ws/src/install/robot_controller/lib/python3.10/site-packages/robot_controller
+[0.579s] byte-compiling /home/zubeyir48/ros2_ME462_ws/src/install/robot_controller/lib/python3.10/site-packages/robot_controller/__init__.py to __init__.cpython-310.pyc
+[0.579s] running install_data
+[0.579s] creating /home/zubeyir48/ros2_ME462_ws/src/install/robot_controller/share/ament_index
+[0.579s] creating /home/zubeyir48/ros2_ME462_ws/src/install/robot_controller/share/ament_index/resource_index
+[0.579s] creating /home/zubeyir48/ros2_ME462_ws/src/install/robot_controller/share/ament_index/resource_index/packages
+[0.579s] copying resource/robot_controller -> /home/zubeyir48/ros2_ME462_ws/src/install/robot_controller/share/ament_index/resource_index/packages
+[0.579s] copying package.xml -> /home/zubeyir48/ros2_ME462_ws/src/install/robot_controller/share/robot_controller
+[0.579s] running install_egg_info
+[0.580s] Copying ../build/robot_controller/robot_controller.egg-info to /home/zubeyir48/ros2_ME462_ws/src/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info
+[0.580s] running install_scripts
+[0.590s] writing list of installed files to '/home/zubeyir48/ros2_ME462_ws/src/build/robot_controller/install.log'
+[0.603s] Invoked command in '/home/zubeyir48/ros2_ME462_ws/src/robot_controller' returned '0': PYTHONPATH=/home/zubeyir48/ros2_ME462_ws/src/build/robot_controller/prefix_override:/home/zubeyir48/ros2_ME462_ws/src/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/robot_controller build --build-base /home/zubeyir48/ros2_ME462_ws/src/build/robot_controller/build install --record /home/zubeyir48/ros2_ME462_ws/src/build/robot_controller/install.log --single-version-externally-managed

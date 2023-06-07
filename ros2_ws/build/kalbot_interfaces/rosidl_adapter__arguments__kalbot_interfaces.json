@@ -1,0 +1,7 @@
+{
+  "package_name": "kalbot_interfaces",
+  "non_idl_tuples": [
+    "/home/zubeyir48/ros2_ME462_ws/src/kalbot_interfaces:msg/MotorCommand.msg",
+    "/home/zubeyir48/ros2_ME462_ws/src/kalbot_interfaces:srv/SetMotorSpeed.srv"
+  ]
+}

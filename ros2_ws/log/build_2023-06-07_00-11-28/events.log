@@ -1,0 +1,253 @@
+[0.000000] (-) TimerEvent: {}
+[0.001127] (-) JobUnselected: {'identifier': 'tutorial_robot_controller'}
+[0.001168] (robot_controller) JobQueued: {'identifier': 'robot_controller', 'dependencies': OrderedDict()}
+[0.001182] (robot_controller) JobStarted: {'identifier': 'robot_controller'}
+[0.006101] (robot_controller) JobProgress: {'identifier': 'robot_controller', 'progress': 'cmake'}
+[0.006363] (robot_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/zubeyir48/ros2_ME462_ws/src/robot_controller', '-DCMAKE_INSTALL_PREFIX=/home/zubeyir48/ros2_ME462_ws/install/robot_controller'], 'cwd': '/home/zubeyir48/ros2_ME462_ws/build/robot_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'zubeyir48'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zubeyir48'), ('OLDPWD', '/home/zubeyir48'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('SYSTEMD_EXEC_PID', '2126'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/zubeyir48/.nvm'), ('COLCON_PREFIX_PATH', '/home/zubeyir48/ros2_ME462_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'zubeyir48'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zubeyir48'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/zubeyir48/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/aznursoy:@/tmp/.ICE-unix/1958,unix/aznursoy:/tmp/.ICE-unix/1958'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e8fc42a0_0f17_4dc1_8b22_9865b9b01785'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller:/home/zubeyir48/ros2_ME462_ws/install/robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/zubeyir48/ros2_ME462_ws/build/robot_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/zubeyir48/ros2_ME462_ws/build/tutorial_robot_controller:/home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/python3.10/site-packages:/home/zubeyir48/ros2_ME462_ws/build/robot_controller:/home/zubeyir48/ros2_ME462_ws/install/robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.011028] (robot_controller) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.011116] (robot_controller) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.011146] (robot_controller) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.011170] (robot_controller) StderrLine: {'line': b'  code such as\n'}
+[0.011193] (robot_controller) StderrLine: {'line': b'\n'}
+[0.011215] (robot_controller) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.011237] (robot_controller) StderrLine: {'line': b'\n'}
+[0.011258] (robot_controller) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.011282] (robot_controller) StderrLine: {'line': b'\n'}
+[0.011303] (robot_controller) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.011325] (robot_controller) StderrLine: {'line': b'  line.\n'}
+[0.011347] (robot_controller) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.011368] (robot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[0.013950] (robot_controller) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.014051] (robot_controller) StdoutLine: {'line': b'-- Found ament_cmake_core: 1.3.4 (/opt/ros/humble/share/ament_cmake_core/cmake)\n'}
+[0.061207] (robot_controller) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1831 (list):\n'}
+[0.061420] (robot_controller) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.061458] (robot_controller) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.061486] (robot_controller) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.061511] (robot_controller) StderrLine: {'line': b'  [Python;3;10;6;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.061537] (robot_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.061563] (robot_controller) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.061585] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.061607] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.061628] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.061650] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.061679] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:4 (find_package)\n'}
+[0.061701] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)\n'}
+[0.061723] (robot_controller) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.061744] (robot_controller) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.061766] (robot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[0.061787] (robot_controller) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1833 (list):\n'}
+[0.061808] (robot_controller) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.061844] (robot_controller) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.061864] (robot_controller) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.061883] (robot_controller) StderrLine: {'line': b'  [Python;3;10;6;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.061904] (robot_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.061924] (robot_controller) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.061944] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.061966] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.061986] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.062007] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.062027] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:4 (find_package)\n'}
+[0.062047] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)\n'}
+[0.062067] (robot_controller) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.062087] (robot_controller) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.062108] (robot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[0.062129] (robot_controller) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1834 (list):\n'}
+[0.062149] (robot_controller) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.062168] (robot_controller) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.062189] (robot_controller) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.062212] (robot_controller) StderrLine: {'line': b'  [Python;3;10;6;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.062231] (robot_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.062251] (robot_controller) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.062271] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.062291] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.062311] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.062331] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.062351] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:4 (find_package)\n'}
+[0.062373] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)\n'}
+[0.062393] (robot_controller) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.062416] (robot_controller) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.062438] (robot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[0.062457] (robot_controller) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1835 (list):\n'}
+[0.062476] (robot_controller) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.062495] (robot_controller) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.062514] (robot_controller) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.062534] (robot_controller) StderrLine: {'line': b'  [Python;3;10;6;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.062553] (robot_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.062572] (robot_controller) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.062591] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.062610] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.062630] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.062649] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.062668] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:4 (find_package)\n'}
+[0.062687] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)\n'}
+[0.062707] (robot_controller) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.062726] (robot_controller) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.062747] (robot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[0.062766] (robot_controller) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1837 (list):\n'}
+[0.062786] (robot_controller) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.062805] (robot_controller) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.062829] (robot_controller) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.062848] (robot_controller) StderrLine: {'line': b'  [Python;3;10;6;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.062868] (robot_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.062889] (robot_controller) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.062911] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.062931] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.062951] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.062971] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.062991] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:4 (find_package)\n'}
+[0.063011] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)\n'}
+[0.063031] (robot_controller) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.063051] (robot_controller) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.063071] (robot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[0.063091] (robot_controller) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1840 (list):\n'}
+[0.063113] (robot_controller) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.063133] (robot_controller) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.063153] (robot_controller) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.063172] (robot_controller) StderrLine: {'line': b'  [Python;3;10;6;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.063191] (robot_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.063211] (robot_controller) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.063230] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.063248] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.063267] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.063286] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.063305] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:4 (find_package)\n'}
+[0.063324] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)\n'}
+[0.063344] (robot_controller) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.063363] (robot_controller) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.063383] (robot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[0.063402] (robot_controller) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1841 (list):\n'}
+[0.063422] (robot_controller) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.063442] (robot_controller) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.063461] (robot_controller) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.063481] (robot_controller) StderrLine: {'line': b'  [Python;3;10;6;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.063501] (robot_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.063520] (robot_controller) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.063539] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.063559] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.063578] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.063597] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.063616] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:4 (find_package)\n'}
+[0.063635] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)\n'}
+[0.063655] (robot_controller) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.063674] (robot_controller) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.063694] (robot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[0.063713] (robot_controller) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1843 (list):\n'}
+[0.063733] (robot_controller) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.063752] (robot_controller) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.063772] (robot_controller) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.063791] (robot_controller) StderrLine: {'line': b'  [Python;3;10;6;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.063812] (robot_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.063832] (robot_controller) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.063852] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.063872] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.063891] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.063911] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.063933] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:4 (find_package)\n'}
+[0.063954] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)\n'}
+[0.063974] (robot_controller) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.063994] (robot_controller) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.064015] (robot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[0.064035] (robot_controller) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1844 (list):\n'}
+[0.064056] (robot_controller) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.064076] (robot_controller) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.064097] (robot_controller) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.064119] (robot_controller) StderrLine: {'line': b'  [Python;3;10;6;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.064140] (robot_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.064161] (robot_controller) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.064182] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.064203] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.064224] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.064245] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.064266] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:4 (find_package)\n'}
+[0.064286] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)\n'}
+[0.064307] (robot_controller) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.064327] (robot_controller) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.064348] (robot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[0.064369] (robot_controller) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1845 (list):\n'}
+[0.064389] (robot_controller) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.064410] (robot_controller) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.064431] (robot_controller) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.064452] (robot_controller) StderrLine: {'line': b'  [Python;3;10;6;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.064474] (robot_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.064495] (robot_controller) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.064516] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.064538] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.064558] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.064578] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.064599] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:4 (find_package)\n'}
+[0.064620] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)\n'}
+[0.064640] (robot_controller) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.064663] (robot_controller) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.064684] (robot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[0.064706] (robot_controller) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1846 (list):\n'}
+[0.064728] (robot_controller) StderrLine: {'line': b'  Policy CMP0007 is not set: list command no longer ignores empty elements.\n'}
+[0.064752] (robot_controller) StderrLine: {'line': b'  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy\n'}
+[0.064775] (robot_controller) StderrLine: {'line': b'  command to set the policy and suppress this warning.  List has value =\n'}
+[0.064797] (robot_controller) StderrLine: {'line': b'  [Python;3;10;6;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages].\n'}
+[0.064820] (robot_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.064841] (robot_controller) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.064864] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.064886] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.064908] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.064930] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.064953] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:4 (find_package)\n'}
+[0.064975] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)\n'}
+[0.064998] (robot_controller) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.065020] (robot_controller) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.065043] (robot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[0.065066] (robot_controller) StderrLine: {'line': b'\x1b[31mCMake Error at /usr/share/cmake-3.22/Modules/FindPython/Support.cmake:1846 (list):\n'}
+[0.065089] (robot_controller) StderrLine: {'line': b'  list index: 10 out of range (-10, 9)\n'}
+[0.065113] (robot_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.065135] (robot_controller) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPython3.cmake:490 (include)\n'}
+[0.065158] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/python.cmake:21 (find_package)\n'}
+[0.065181] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/all.cmake:54 (include)\n'}
+[0.065205] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.065228] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.065251] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:4 (find_package)\n'}
+[0.065275] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)\n'}
+[0.065299] (robot_controller) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.065322] (robot_controller) StderrLine: {'line': b'\n'}
+[0.065345] (robot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[0.097514] (robot_controller) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[0.097772] (robot_controller) StderrLine: {'line': b'  Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake\n'}
+[0.097807] (robot_controller) StderrLine: {'line': b'  --help-policy CMP0057" for policy details.  Use the cmake_policy command to\n'}
+[0.097831] (robot_controller) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[0.097854] (robot_controller) StderrLine: {'line': b'\n'}
+[0.097875] (robot_controller) StderrLine: {'line': b'  IN_LIST will be interpreted as an operator when the policy is set to NEW.\n'}
+[0.097900] (robot_controller) StderrLine: {'line': b'  Since the policy is not set the OLD behavior will be used.\n'}
+[0.097921] (robot_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.097942] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/index/ament_index_get_resources.cmake:51 (list_append_unique)\n'}
+[0.097963] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:5 (ament_index_get_resources)\n'}
+[0.097983] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)\n'}
+[0.098003] (robot_controller) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.098023] (robot_controller) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.098043] (robot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[0.098062] (robot_controller) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[0.098082] (robot_controller) StderrLine: {'line': b'  if given arguments:\n'}
+[0.098102] (robot_controller) StderrLine: {'line': b'\n'}
+[0.098122] (robot_controller) StderrLine: {'line': b'    "NOT" "element" "IN_LIST" "paths_to_search"\n'}
+[0.098142] (robot_controller) StderrLine: {'line': b'\n'}
+[0.098161] (robot_controller) StderrLine: {'line': b'  Unknown arguments specified\n'}
+[0.098181] (robot_controller) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.098200] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/index/ament_index_get_resources.cmake:51 (list_append_unique)\n'}
+[0.098221] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:5 (ament_index_get_resources)\n'}
+[0.098241] (robot_controller) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)\n'}
+[0.098261] (robot_controller) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.098281] (robot_controller) StderrLine: {'line': b'\n'}
+[0.098302] (robot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[0.098321] (robot_controller) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.098341] (robot_controller) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.098360] (robot_controller) StderrLine: {'line': b'\n'}
+[0.098379] (robot_controller) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.098401] (robot_controller) StderrLine: {'line': b'\n'}
+[0.098424] (robot_controller) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.098443] (robot_controller) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.098462] (robot_controller) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.098482] (robot_controller) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.098501] (robot_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[0.098520] (robot_controller) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.098545] (robot_controller) StdoutLine: {'line': b'See also "/home/zubeyir48/ros2_ME462_ws/build/robot_controller/CMakeFiles/CMakeOutput.log".\n'}
+[0.099216] (robot_controller) CommandEnded: {'returncode': 1}
+[0.099393] (robot_controller) JobEnded: {'identifier': 'robot_controller', 'rc': 1}
+[0.099979] (-) TimerEvent: {}
+[0.109616] (-) EventReactorShutdown: {}

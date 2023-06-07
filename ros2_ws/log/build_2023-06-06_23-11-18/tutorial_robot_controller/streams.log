@@ -1,0 +1,20 @@
+[0.470s] Invoking command in '/home/zubeyir48/ros2_ME462_ws/build/tutorial_robot_controller': PYTHONPATH=/home/zubeyir48/ros2_ME462_ws/build/tutorial_robot_controller/prefix_override:/home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/zubeyir48/ros2_ME462_ws/build/tutorial_robot_controller/build --no-deps install_data
+[0.605s] running develop
+[0.677s] running egg_info
+[0.678s] writing tutorial_robot_controller.egg-info/PKG-INFO
+[0.678s] writing dependency_links to tutorial_robot_controller.egg-info/dependency_links.txt
+[0.678s] writing entry points to tutorial_robot_controller.egg-info/entry_points.txt
+[0.678s] writing requirements to tutorial_robot_controller.egg-info/requires.txt
+[0.678s] writing top-level names to tutorial_robot_controller.egg-info/top_level.txt
+[0.679s] reading manifest file 'tutorial_robot_controller.egg-info/SOURCES.txt'
+[0.679s] writing manifest file 'tutorial_robot_controller.egg-info/SOURCES.txt'
+[0.680s] running build_ext
+[0.680s] Creating /home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/python3.10/site-packages/tutorial-robot-controller.egg-link (link to .)
+[0.680s] Installing draw_circle script to /home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/tutorial_robot_controller
+[0.680s] Installing pose_subscriber script to /home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/tutorial_robot_controller
+[0.680s] Installing test_node script to /home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/tutorial_robot_controller
+[0.680s] Installing turtle_controller script to /home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/tutorial_robot_controller
+[0.680s] 
+[0.681s] Installed /home/zubeyir48/ros2_ME462_ws/build/tutorial_robot_controller
+[0.681s] running install_data
+[0.707s] Invoked command in '/home/zubeyir48/ros2_ME462_ws/build/tutorial_robot_controller' returned '0': PYTHONPATH=/home/zubeyir48/ros2_ME462_ws/build/tutorial_robot_controller/prefix_override:/home/zubeyir48/ros2_ME462_ws/install/tutorial_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/zubeyir48/ros2_ME462_ws/build/tutorial_robot_controller/build --no-deps install_data

@@ -1,0 +1,24 @@
+[0.329s] Invoking command in '/home/zubeyir48/ros2_ME462_ws/src/kalbot_controller': CMAKE_PREFIX_PATH=/home/zubeyir48/ros2_ME462_ws/install/kalbot_interfaces:/home/zubeyir48/ros2_ME462_ws/install/kalbot_brignup PYTHONPATH=/home/zubeyir48/ros2_ME462_ws/build/kalbot_controller/prefix_override:/home/zubeyir48/ros2_ME462_ws/install/kalbot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/kalbot_controller build --build-base /home/zubeyir48/ros2_ME462_ws/build/kalbot_controller/build install --record /home/zubeyir48/ros2_ME462_ws/build/kalbot_controller/install.log --single-version-externally-managed
+[0.453s] running egg_info
+[0.453s] writing ../../build/kalbot_controller/kalbot_controller.egg-info/PKG-INFO
+[0.454s] writing dependency_links to ../../build/kalbot_controller/kalbot_controller.egg-info/dependency_links.txt
+[0.454s] writing entry points to ../../build/kalbot_controller/kalbot_controller.egg-info/entry_points.txt
+[0.454s] writing requirements to ../../build/kalbot_controller/kalbot_controller.egg-info/requires.txt
+[0.454s] writing top-level names to ../../build/kalbot_controller/kalbot_controller.egg-info/top_level.txt
+[0.455s] reading manifest file '../../build/kalbot_controller/kalbot_controller.egg-info/SOURCES.txt'
+[0.455s] writing manifest file '../../build/kalbot_controller/kalbot_controller.egg-info/SOURCES.txt'
+[0.455s] running build
+[0.455s] running build_py
+[0.455s] copying kalbot_controller/kalbot_controller.py -> /home/zubeyir48/ros2_ME462_ws/build/kalbot_controller/build/lib/kalbot_controller
+[0.455s] running install
+[0.455s] running install_lib
+[0.456s] copying /home/zubeyir48/ros2_ME462_ws/build/kalbot_controller/build/lib/kalbot_controller/kalbot_controller.py -> /home/zubeyir48/ros2_ME462_ws/install/kalbot_controller/lib/python3.10/site-packages/kalbot_controller
+[0.456s] byte-compiling /home/zubeyir48/ros2_ME462_ws/install/kalbot_controller/lib/python3.10/site-packages/kalbot_controller/kalbot_controller.py to kalbot_controller.cpython-310.pyc
+[0.456s] running install_data
+[0.456s] running install_egg_info
+[0.457s] removing '/home/zubeyir48/ros2_ME462_ws/install/kalbot_controller/lib/python3.10/site-packages/kalbot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.457s] Copying ../../build/kalbot_controller/kalbot_controller.egg-info to /home/zubeyir48/ros2_ME462_ws/install/kalbot_controller/lib/python3.10/site-packages/kalbot_controller-0.0.0-py3.10.egg-info
+[0.458s] running install_scripts
+[0.468s] Installing kalbot_controller script to /home/zubeyir48/ros2_ME462_ws/install/kalbot_controller/lib/kalbot_controller
+[0.468s] writing list of installed files to '/home/zubeyir48/ros2_ME462_ws/build/kalbot_controller/install.log'
+[0.481s] Invoked command in '/home/zubeyir48/ros2_ME462_ws/src/kalbot_controller' returned '0': CMAKE_PREFIX_PATH=/home/zubeyir48/ros2_ME462_ws/install/kalbot_interfaces:/home/zubeyir48/ros2_ME462_ws/install/kalbot_brignup PYTHONPATH=/home/zubeyir48/ros2_ME462_ws/build/kalbot_controller/prefix_override:/home/zubeyir48/ros2_ME462_ws/install/kalbot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/kalbot_controller build --build-base /home/zubeyir48/ros2_ME462_ws/build/kalbot_controller/build install --record /home/zubeyir48/ros2_ME462_ws/build/kalbot_controller/install.log --single-version-externally-managed

@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/kalbot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kalbot_interfaces/msg/detail/motor_command__type_support.cpp.o"
+  "CMakeFiles/kalbot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kalbot_interfaces/msg/detail/motor_command__type_support.cpp.o.d"
+  "CMakeFiles/kalbot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kalbot_interfaces/srv/detail/set_motor_speed__type_support.cpp.o"
+  "CMakeFiles/kalbot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kalbot_interfaces/srv/detail/set_motor_speed__type_support.cpp.o.d"
+  "libkalbot_interfaces__rosidl_typesupport_introspection_cpp.pdb"
+  "libkalbot_interfaces__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/kalbot_interfaces/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/kalbot_interfaces/msg/detail/motor_command__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/kalbot_interfaces/srv/detail/set_motor_speed__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/kalbot_interfaces/srv/detail/set_motor_speed__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/kalbot_interfaces__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
