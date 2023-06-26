@@ -1,0 +1,21 @@
+{
+  "package_name": "kalbot_interfaces",
+  "output_dir": "/home/alibaba/ros2_repos/build/kalbot_interfaces/rosidl_typesupport_fastrtps_cpp/kalbot_interfaces",
+  "template_dir": "/opt/ros/eloquent/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "idl_tuples": [
+    "/home/alibaba/ros2_repos/build/kalbot_interfaces/rosidl_adapter/kalbot_interfaces:msg/MotorCommand.idl",
+    "/home/alibaba/ros2_repos/build/kalbot_interfaces/rosidl_adapter/kalbot_interfaces:srv/SetMotorSpeed.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/eloquent/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/opt/ros/eloquent/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/eloquent/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/eloquent/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/eloquent/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/eloquent/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/eloquent/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/home/alibaba/ros2_repos/build/kalbot_interfaces/rosidl_adapter/kalbot_interfaces/msg/MotorCommand.idl",
+    "/home/alibaba/ros2_repos/build/kalbot_interfaces/rosidl_adapter/kalbot_interfaces/srv/SetMotorSpeed.idl"
+  ]
+}

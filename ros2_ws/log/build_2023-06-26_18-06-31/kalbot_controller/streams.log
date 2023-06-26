@@ -1,0 +1,29 @@
+[4.338s] Invoking command in '/home/alibaba/ros2_repos/src/kalbot_controller': AMENT_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_interfaces LD_LIBRARY_PATH=/home/alibaba/ros2_repos/install/kalbot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alibaba/ros2_repos/build/kalbot_controller/prefix_override:/home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages:/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/kalbot_controller build --build-base /home/alibaba/ros2_repos/build/kalbot_controller/build install --record /home/alibaba/ros2_repos/build/kalbot_controller/install.log --single-version-externally-managed
+[5.448s] running egg_info
+[5.461s] writing ../../build/kalbot_controller/kalbot_controller.egg-info/PKG-INFO
+[5.462s] writing dependency_links to ../../build/kalbot_controller/kalbot_controller.egg-info/dependency_links.txt
+[5.462s] writing entry points to ../../build/kalbot_controller/kalbot_controller.egg-info/entry_points.txt
+[5.463s] writing requirements to ../../build/kalbot_controller/kalbot_controller.egg-info/requires.txt
+[5.463s] writing top-level names to ../../build/kalbot_controller/kalbot_controller.egg-info/top_level.txt
+[5.638s] reading manifest file '../../build/kalbot_controller/kalbot_controller.egg-info/SOURCES.txt'
+[5.644s] writing manifest file '../../build/kalbot_controller/kalbot_controller.egg-info/SOURCES.txt'
+[5.645s] running build
+[5.645s] running build_py
+[5.646s] copying kalbot_controller/kalbot_controller.py -> /home/alibaba/ros2_repos/build/kalbot_controller/build/lib/kalbot_controller
+[5.647s] running install
+[5.648s] running install_lib
+[5.651s] copying /home/alibaba/ros2_repos/build/kalbot_controller/build/lib/kalbot_controller/kalbot_controller.py -> /home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller
+[5.653s] byte-compiling /home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller/kalbot_controller.py to kalbot_controller.cpython-36.pyc
+[5.655s]   File "/home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller/kalbot_controller.py", line 32
+[5.655s]     msg = {"Left Motor": self._command.left_motor_speed,"Right Motor": self._command.right_motor_speed)
+[5.656s]                                                                                                       ^
+[5.657s] SyntaxError: invalid syntax
+[5.657s] 
+[5.658s] running install_data
+[5.658s] running install_egg_info
+[5.664s] removing '/home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller-0.0.0-py3.6.egg-info' (and everything under it)
+[5.666s] Copying ../../build/kalbot_controller/kalbot_controller.egg-info to /home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller-0.0.0-py3.6.egg-info
+[5.670s] running install_scripts
+[5.759s] Installing kalbot_controller script to /home/alibaba/ros2_repos/install/kalbot_controller/lib/kalbot_controller
+[5.760s] writing list of installed files to '/home/alibaba/ros2_repos/build/kalbot_controller/install.log'
+[5.876s] Invoked command in '/home/alibaba/ros2_repos/src/kalbot_controller' returned '0': AMENT_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_interfaces LD_LIBRARY_PATH=/home/alibaba/ros2_repos/install/kalbot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alibaba/ros2_repos/build/kalbot_controller/prefix_override:/home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages:/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/kalbot_controller build --build-base /home/alibaba/ros2_repos/build/kalbot_controller/build install --record /home/alibaba/ros2_repos/build/kalbot_controller/install.log --single-version-externally-managed

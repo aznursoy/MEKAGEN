@@ -1,0 +1,310 @@
+[0.000000] (-) TimerEvent: {}
+[0.003215] (kalbot_brignup) JobQueued: {'identifier': 'kalbot_brignup', 'dependencies': OrderedDict()}
+[0.003413] (kalbot_interfaces) JobQueued: {'identifier': 'kalbot_interfaces', 'dependencies': OrderedDict()}
+[0.003556] (kalbot_controller) JobQueued: {'identifier': 'kalbot_controller', 'dependencies': OrderedDict([('kalbot_interfaces', '/home/alibaba/ros2_repos/install/kalbot_interfaces')])}
+[0.003696] (keyboard_controller) JobQueued: {'identifier': 'keyboard_controller', 'dependencies': OrderedDict([('kalbot_interfaces', '/home/alibaba/ros2_repos/install/kalbot_interfaces')])}
+[0.006772] (kalbot_interfaces) JobStarted: {'identifier': 'kalbot_interfaces'}
+[0.057809] (kalbot_brignup) JobStarted: {'identifier': 'kalbot_brignup'}
+[0.092993] (kalbot_interfaces) JobProgress: {'identifier': 'kalbot_interfaces', 'progress': 'cmake'}
+[0.095833] (kalbot_interfaces) JobProgress: {'identifier': 'kalbot_interfaces', 'progress': 'build'}
+[0.100179] (kalbot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alibaba/ros2_repos/build/kalbot_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/alibaba/ros2_repos/build/kalbot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/alibaba'), ('USER', 'alibaba'), ('SSH_CLIENT', '144.122.79.118 45200 22'), ('LC_TIME', 'tr_TR.UTF-8'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('HOME', '/home/alibaba'), ('OLDPWD', '/home/alibaba/ros2_repos/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/alibaba/ros2_install'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'alibaba'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '3'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('LC_NAME', 'tr_TR.UTF-8'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/alibaba/ros2_repos/build/kalbot_interfaces'), ('SSH_CONNECTION', '144.122.79.118 45200 144.122.177.143 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.104596] (-) TimerEvent: {}
+[0.121028] (kalbot_brignup) JobProgress: {'identifier': 'kalbot_brignup', 'progress': 'cmake'}
+[0.123831] (kalbot_brignup) JobProgress: {'identifier': 'kalbot_brignup', 'progress': 'build'}
+[0.124867] (kalbot_brignup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alibaba/ros2_repos/build/kalbot_brignup', '--', '-j4', '-l4'], 'cwd': '/home/alibaba/ros2_repos/build/kalbot_brignup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/alibaba'), ('USER', 'alibaba'), ('SSH_CLIENT', '144.122.79.118 45200 22'), ('LC_TIME', 'tr_TR.UTF-8'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('HOME', '/home/alibaba'), ('OLDPWD', '/home/alibaba/ros2_repos/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/alibaba/ros2_install'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'alibaba'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '3'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('LC_NAME', 'tr_TR.UTF-8'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/alibaba/ros2_repos/build/kalbot_brignup'), ('SSH_CONNECTION', '144.122.79.118 45200 144.122.177.143 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.204951] (-) TimerEvent: {}
+[0.305913] (-) TimerEvent: {}
+[0.324290] (kalbot_interfaces) StdoutLine: {'line': b'[  2%] Built target kalbot_interfaces__cpp\n'}
+[0.331018] (kalbot_brignup) CommandEnded: {'returncode': 0}
+[0.338665] (kalbot_interfaces) StdoutLine: {'line': b'[ 13%] Built target kalbot_interfaces__rosidl_generator_c\n'}
+[0.406274] (-) TimerEvent: {}
+[0.454857] (kalbot_brignup) JobProgress: {'identifier': 'kalbot_brignup', 'progress': 'install'}
+[0.465213] (kalbot_interfaces) StdoutLine: {'line': b'[ 24%] Built target kalbot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.477275] (kalbot_interfaces) StdoutLine: {'line': b'[ 35%] Built target kalbot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.504504] (kalbot_interfaces) StdoutLine: {'line': b'[ 45%] Built target kalbot_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.506451] (-) TimerEvent: {}
+[0.515591] (kalbot_brignup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alibaba/ros2_repos/build/kalbot_brignup', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/alibaba/ros2_repos/build/kalbot_brignup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/alibaba'), ('USER', 'alibaba'), ('SSH_CLIENT', '144.122.79.118 45200 22'), ('LC_TIME', 'tr_TR.UTF-8'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('HOME', '/home/alibaba'), ('OLDPWD', '/home/alibaba/ros2_repos/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/alibaba/ros2_install'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'alibaba'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '3'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('LC_NAME', 'tr_TR.UTF-8'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/alibaba/ros2_repos/build/kalbot_brignup'), ('SSH_CONNECTION', '144.122.79.118 45200 144.122.177.143 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.603083] (kalbot_interfaces) StdoutLine: {'line': b'[ 56%] Built target kalbot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.606657] (-) TimerEvent: {}
+[0.634331] (kalbot_interfaces) StdoutLine: {'line': b'[ 67%] Built target kalbot_interfaces__rosidl_typesupport_cpp\n'}
+[0.706828] (-) TimerEvent: {}
+[0.724158] (kalbot_brignup) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[0.725342] (kalbot_interfaces) StdoutLine: {'line': b'[ 78%] Built target kalbot_interfaces__rosidl_typesupport_c\n'}
+[0.757203] (kalbot_brignup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.758914] (kalbot_brignup) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/launch\n'}
+[0.759844] (kalbot_brignup) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/launch/demo.launch.py\n'}
+[0.760380] (kalbot_brignup) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_brignup/share/ament_index/resource_index/package_run_dependencies/kalbot_brignup\n'}
+[0.760912] (kalbot_brignup) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_brignup/share/ament_index/resource_index/parent_prefix_path/kalbot_brignup\n'}
+[0.761448] (kalbot_brignup) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/environment/ament_prefix_path.sh\n'}
+[0.761973] (kalbot_brignup) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/environment/ament_prefix_path.dsv\n'}
+[0.762959] (kalbot_brignup) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/environment/path.sh\n'}
+[0.766233] (kalbot_brignup) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/environment/path.dsv\n'}
+[0.767066] (kalbot_brignup) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/local_setup.bash\n'}
+[0.767573] (kalbot_brignup) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/local_setup.sh\n'}
+[0.768077] (kalbot_brignup) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/local_setup.zsh\n'}
+[0.768565] (kalbot_brignup) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/local_setup.dsv\n'}
+[0.769035] (kalbot_brignup) StdoutLine: {'line': b'-- Installing: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/package.dsv\n'}
+[0.769539] (kalbot_brignup) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_brignup/share/ament_index/resource_index/packages/kalbot_brignup\n'}
+[0.770005] (kalbot_brignup) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/cmake/kalbot_brignupConfig.cmake\n'}
+[0.771050] (kalbot_brignup) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/cmake/kalbot_brignupConfig-version.cmake\n'}
+[0.771771] (kalbot_brignup) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/package.xml\n'}
+[0.783689] (kalbot_brignup) CommandEnded: {'returncode': 0}
+[0.803218] (kalbot_interfaces) StdoutLine: {'line': b'[ 78%] Built target kalbot_interfaces\n'}
+[0.808641] (-) TimerEvent: {}
+[0.892449] (kalbot_interfaces) StdoutLine: {'line': b'[ 81%] Built target kalbot_interfaces__py\n'}
+[0.908852] (-) TimerEvent: {}
+[1.015430] (-) TimerEvent: {}
+[1.018399] (kalbot_interfaces) StdoutLine: {'line': b'[ 89%] Built target kalbot_interfaces__python\n'}
+[1.036772] (kalbot_brignup) JobEnded: {'identifier': 'kalbot_brignup', 'rc': 0}
+[1.115620] (-) TimerEvent: {}
+[1.143056] (kalbot_interfaces) StdoutLine: {'line': b'[ 94%] Built target kalbot_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.148331] (kalbot_interfaces) StdoutLine: {'line': b'[100%] Built target kalbot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.189150] (kalbot_interfaces) CommandEnded: {'returncode': 0}
+[1.215899] (-) TimerEvent: {}
+[1.316805] (-) TimerEvent: {}
+[1.406333] (kalbot_interfaces) JobProgress: {'identifier': 'kalbot_interfaces', 'progress': 'install'}
+[1.407693] (kalbot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alibaba/ros2_repos/build/kalbot_interfaces', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/alibaba/ros2_repos/build/kalbot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/alibaba'), ('USER', 'alibaba'), ('SSH_CLIENT', '144.122.79.118 45200 22'), ('LC_TIME', 'tr_TR.UTF-8'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('HOME', '/home/alibaba'), ('OLDPWD', '/home/alibaba/ros2_repos/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/home/alibaba/ros2_install'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'alibaba'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '3'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('LC_NAME', 'tr_TR.UTF-8'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/alibaba/ros2_repos/build/kalbot_interfaces'), ('SSH_CONNECTION', '144.122.79.118 45200 144.122.177.143 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[1.417012] (-) TimerEvent: {}
+[1.517966] (-) TimerEvent: {}
+[1.616857] (kalbot_interfaces) StdoutLine: {'line': b'[  2%] Built target kalbot_interfaces__cpp\n'}
+[1.618600] (-) TimerEvent: {}
+[1.621636] (kalbot_interfaces) StdoutLine: {'line': b'[ 13%] Built target kalbot_interfaces__rosidl_generator_c\n'}
+[1.718844] (-) TimerEvent: {}
+[1.738013] (kalbot_interfaces) StdoutLine: {'line': b'[ 24%] Built target kalbot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.747772] (kalbot_interfaces) StdoutLine: {'line': b'[ 35%] Built target kalbot_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.765760] (kalbot_interfaces) StdoutLine: {'line': b'[ 45%] Built target kalbot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.819045] (-) TimerEvent: {}
+[1.892529] (kalbot_interfaces) StdoutLine: {'line': b'[ 67%] Built target kalbot_interfaces__rosidl_typesupport_cpp\n'}
+[1.893357] (kalbot_interfaces) StdoutLine: {'line': b'[ 67%] Built target kalbot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.919325] (-) TimerEvent: {}
+[2.001004] (kalbot_interfaces) StdoutLine: {'line': b'[ 78%] Built target kalbot_interfaces__rosidl_typesupport_c\n'}
+[2.019499] (-) TimerEvent: {}
+[2.078474] (kalbot_interfaces) StdoutLine: {'line': b'[ 78%] Built target kalbot_interfaces\n'}
+[2.119699] (-) TimerEvent: {}
+[2.155140] (kalbot_interfaces) StdoutLine: {'line': b'[ 81%] Built target kalbot_interfaces__py\n'}
+[2.219916] (-) TimerEvent: {}
+[2.262729] (kalbot_interfaces) StdoutLine: {'line': b'[ 89%] Built target kalbot_interfaces__python\n'}
+[2.320090] (-) TimerEvent: {}
+[2.376810] (kalbot_interfaces) StdoutLine: {'line': b'[ 94%] Built target kalbot_interfaces__rosidl_typesupport_c__pyext\n'}
+[2.382400] (kalbot_interfaces) StdoutLine: {'line': b'[100%] Built target kalbot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.420320] (-) TimerEvent: {}
+[2.454214] (kalbot_interfaces) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[2.487841] (kalbot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.488710] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/ament_index/resource_index/rosidl_interfaces/kalbot_interfaces\n'}
+[2.489270] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__rosidl_typesupport_c.so\n'}
+[2.489947] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/environment/library_path.sh\n'}
+[2.490617] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/environment/library_path.dsv\n'}
+[2.491178] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.491808] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces\n'}
+[2.492488] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv\n'}
+[2.492988] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__rosidl_typesupport_fastrtps_c.h\n'}
+[2.493490] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg\n'}
+[2.493919] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.494571] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__rosidl_typesupport_fastrtps_c.h\n'}
+[2.495320] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.496076] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces\n'}
+[2.496544] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv\n'}
+[2.497047] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__type_support.h\n'}
+[2.497545] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed.h\n'}
+[2.498521] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__functions.c\n'}
+[2.499139] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__functions.h\n'}
+[2.499725] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__struct.h\n'}
+[2.500180] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg\n'}
+[2.500826] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__type_support.h\n'}
+[2.501631] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__functions.c\n'}
+[2.502383] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__functions.h\n'}
+[2.502891] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command.h\n'}
+[2.503557] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__struct.h\n'}
+[2.504074] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.504678] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__rosidl_generator_c.so\n'}
+[2.505454] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces\n'}
+[2.506012] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv\n'}
+[2.506694] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.507178] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/dds_fastrtps\n'}
+[2.507854] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg\n'}
+[2.508365] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.508883] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.509360] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/dds_fastrtps\n'}
+[2.509868] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.510452] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces\n'}
+[2.510959] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv\n'}
+[2.511460] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed.hpp\n'}
+[2.511971] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__traits.hpp\n'}
+[2.512444] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__struct.hpp\n'}
+[2.512902] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg\n'}
+[2.513392] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__traits.hpp\n'}
+[2.513975] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command.hpp\n'}
+[2.514577] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__struct.hpp\n'}
+[2.515121] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces\n'}
+[2.515637] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv\n'}
+[2.516166] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__rosidl_typesupport_introspection_c.h\n'}
+[2.516643] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__type_support.c\n'}
+[2.517123] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg\n'}
+[2.517579] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__type_support.c\n'}
+[2.518022] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.518549] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__rosidl_typesupport_introspection_c.h\n'}
+[2.519024] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.519504] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces\n'}
+[2.519950] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv\n'}
+[2.520423] (-) TimerEvent: {}
+[2.520849] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__type_support.cpp\n'}
+[2.521414] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.521945] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg\n'}
+[2.522484] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.522964] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__type_support.cpp\n'}
+[2.523414] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.523854] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/environment/pythonpath.sh\n'}
+[2.524328] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/environment/pythonpath.dsv\n'}
+[2.524780] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/__init__.py\n'}
+[2.620605] (-) TimerEvent: {}
+[2.669549] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/msg\n'}
+[2.671013] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/msg/__init__.py\n'}
+[2.671696] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/msg/_motor_command_s.c\n'}
+[2.672267] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/msg/_motor_command.py\n'}
+[2.672720] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/srv\n'}
+[2.673157] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/srv/__init__.py\n'}
+[2.673591] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/srv/_set_motor_speed.py\n'}
+[2.674194] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/srv/_set_motor_speed_s.c\n'}
+[2.674680] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/kalbot_interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[2.675137] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/kalbot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[2.675772] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__python.so\n'}
+[2.676468] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/msg/MotorCommand.idl\n'}
+[2.677117] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/srv/SetMotorSpeed.idl\n'}
+[2.677766] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/msg/MotorCommand.msg\n'}
+[2.678372] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/srv/SetMotorSpeed.srv\n'}
+[2.679025] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/srv/SetMotorSpeed_Request.msg\n'}
+[2.679655] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/srv/SetMotorSpeed_Response.msg\n'}
+[2.680232] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/ament_index/resource_index/package_run_dependencies/kalbot_interfaces\n'}
+[2.680782] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/ament_index/resource_index/parent_prefix_path/kalbot_interfaces\n'}
+[2.681362] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/environment/ament_prefix_path.sh\n'}
+[2.681918] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.682691] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/environment/path.sh\n'}
+[2.683166] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/environment/path.dsv\n'}
+[2.683705] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/local_setup.bash\n'}
+[2.684227] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/local_setup.sh\n'}
+[2.684729] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/local_setup.zsh\n'}
+[2.685238] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/local_setup.dsv\n'}
+[2.685731] (kalbot_interfaces) StdoutLine: {'line': b'-- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/package.dsv\n'}
+[2.686297] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/ament_index/resource_index/packages/kalbot_interfaces\n'}
+[2.686811] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.687405] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.687927] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.688450] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.688954] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/cmake/kalbot_interfacesConfig.cmake\n'}
+[2.689435] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/cmake/kalbot_interfacesConfig-version.cmake\n'}
+[2.689921] (kalbot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/package.xml\n'}
+[2.693159] (kalbot_interfaces) CommandEnded: {'returncode': 0}
+[2.723386] (-) TimerEvent: {}
+[2.824459] (-) TimerEvent: {}
+[2.925779] (-) TimerEvent: {}
+[3.027532] (-) TimerEvent: {}
+[3.092934] (kalbot_interfaces) JobEnded: {'identifier': 'kalbot_interfaces', 'rc': 0}
+[3.099139] (kalbot_controller) JobStarted: {'identifier': 'kalbot_controller'}
+[3.128339] (-) TimerEvent: {}
+[3.136708] (keyboard_controller) JobStarted: {'identifier': 'keyboard_controller'}
+[3.228412] (-) TimerEvent: {}
+[3.329470] (-) TimerEvent: {}
+[3.430200] (-) TimerEvent: {}
+[3.530911] (-) TimerEvent: {}
+[3.631697] (-) TimerEvent: {}
+[3.732385] (-) TimerEvent: {}
+[3.833105] (-) TimerEvent: {}
+[3.933797] (-) TimerEvent: {}
+[4.034521] (-) TimerEvent: {}
+[4.135195] (-) TimerEvent: {}
+[4.235902] (-) TimerEvent: {}
+[4.338091] (-) TimerEvent: {}
+[4.439076] (-) TimerEvent: {}
+[4.540275] (-) TimerEvent: {}
+[4.640947] (-) TimerEvent: {}
+[4.741707] (-) TimerEvent: {}
+[4.842481] (-) TimerEvent: {}
+[4.943220] (-) TimerEvent: {}
+[5.043925] (-) TimerEvent: {}
+[5.144688] (-) TimerEvent: {}
+[5.245428] (-) TimerEvent: {}
+[5.346226] (-) TimerEvent: {}
+[5.446916] (-) TimerEvent: {}
+[5.549507] (-) TimerEvent: {}
+[5.650608] (-) TimerEvent: {}
+[5.751661] (-) TimerEvent: {}
+[5.852390] (-) TimerEvent: {}
+[5.953142] (-) TimerEvent: {}
+[6.053843] (-) TimerEvent: {}
+[6.154989] (-) TimerEvent: {}
+[6.255690] (-) TimerEvent: {}
+[6.356434] (-) TimerEvent: {}
+[6.457095] (-) TimerEvent: {}
+[6.557872] (-) TimerEvent: {}
+[6.658626] (-) TimerEvent: {}
+[6.759439] (-) TimerEvent: {}
+[6.860204] (-) TimerEvent: {}
+[6.960989] (-) TimerEvent: {}
+[7.061720] (-) TimerEvent: {}
+[7.162555] (-) TimerEvent: {}
+[7.263355] (-) TimerEvent: {}
+[7.334744] (kalbot_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/kalbot_controller', 'build', '--build-base', '/home/alibaba/ros2_repos/build/kalbot_controller/build', 'install', '--record', '/home/alibaba/ros2_repos/build/kalbot_controller/install.log', '--single-version-externally-managed'], 'cwd': '/home/alibaba/ros2_repos/src/kalbot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/alibaba', 'USER': 'alibaba', 'SSH_CLIENT': '144.122.79.118 45200 22', 'LC_TIME': 'tr_TR.UTF-8', 'LD_LIBRARY_PATH': '/home/alibaba/ros2_repos/install/kalbot_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib', 'SHLVL': '1', 'HOME': '/home/alibaba', 'OLDPWD': '/home/alibaba/ros2_repos/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'tr_TR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/home/alibaba/ros2_install', 'ROS_DISTRO': 'eloquent', 'LOGNAME': 'alibaba', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_ID': '3', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'tr_TR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/alibaba/ros2_repos/install/kalbot_interfaces:/opt/ros/eloquent', 'LC_NAME': 'tr_TR.UTF-8', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/alibaba/ros2_repos/build/kalbot_controller', 'SSH_CONNECTION': '144.122.79.118 45200 144.122.177.143 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LC_NUMERIC': 'tr_TR.UTF-8', 'PYTHONPATH': '/home/alibaba/ros2_repos/build/kalbot_controller/prefix_override:/home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages:/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/alibaba/ros2_repos/install/kalbot_interfaces'}, 'shell': False}
+[7.356621] (keyboard_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/keyboard_controller', 'build', '--build-base', '/home/alibaba/ros2_repos/build/keyboard_controller/build', 'install', '--record', '/home/alibaba/ros2_repos/build/keyboard_controller/install.log', '--single-version-externally-managed'], 'cwd': '/home/alibaba/ros2_repos/src/keyboard_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/alibaba', 'USER': 'alibaba', 'SSH_CLIENT': '144.122.79.118 45200 22', 'LC_TIME': 'tr_TR.UTF-8', 'LD_LIBRARY_PATH': '/home/alibaba/ros2_repos/install/kalbot_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib', 'SHLVL': '1', 'HOME': '/home/alibaba', 'OLDPWD': '/home/alibaba/ros2_repos/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'tr_TR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/home/alibaba/ros2_install', 'ROS_DISTRO': 'eloquent', 'LOGNAME': 'alibaba', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_ID': '3', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'tr_TR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/alibaba/ros2_repos/install/kalbot_interfaces:/opt/ros/eloquent', 'LC_NAME': 'tr_TR.UTF-8', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/alibaba/ros2_repos/build/keyboard_controller', 'SSH_CONNECTION': '144.122.79.118 45200 144.122.177.143 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LC_NUMERIC': 'tr_TR.UTF-8', 'PYTHONPATH': '/home/alibaba/ros2_repos/build/keyboard_controller/prefix_override:/home/alibaba/ros2_repos/install/keyboard_controller/lib/python3.6/site-packages:/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/alibaba/ros2_repos/install/kalbot_interfaces'}, 'shell': False}
+[7.366348] (-) TimerEvent: {}
+[7.467252] (-) TimerEvent: {}
+[7.567959] (-) TimerEvent: {}
+[7.669242] (-) TimerEvent: {}
+[7.770256] (-) TimerEvent: {}
+[7.876242] (-) TimerEvent: {}
+[7.977663] (-) TimerEvent: {}
+[8.078382] (-) TimerEvent: {}
+[8.179069] (-) TimerEvent: {}
+[8.279761] (-) TimerEvent: {}
+[8.380480] (-) TimerEvent: {}
+[8.481191] (-) TimerEvent: {}
+[8.517412] (kalbot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[8.521429] (kalbot_controller) StdoutLine: {'line': b'writing ../../build/kalbot_controller/kalbot_controller.egg-info/PKG-INFO\n'}
+[8.523667] (kalbot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/kalbot_controller/kalbot_controller.egg-info/dependency_links.txt\n'}
+[8.524400] (kalbot_controller) StdoutLine: {'line': b'writing entry points to ../../build/kalbot_controller/kalbot_controller.egg-info/entry_points.txt\n'}
+[8.524930] (kalbot_controller) StdoutLine: {'line': b'writing requirements to ../../build/kalbot_controller/kalbot_controller.egg-info/requires.txt\n'}
+[8.525459] (kalbot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/kalbot_controller/kalbot_controller.egg-info/top_level.txt\n'}
+[8.540516] (keyboard_controller) StdoutLine: {'line': b'running egg_info\n'}
+[8.544581] (keyboard_controller) StdoutLine: {'line': b'writing ../../build/keyboard_controller/keyboard_controller.egg-info/PKG-INFO\n'}
+[8.545605] (keyboard_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/keyboard_controller/keyboard_controller.egg-info/dependency_links.txt\n'}
+[8.546408] (keyboard_controller) StdoutLine: {'line': b'writing entry points to ../../build/keyboard_controller/keyboard_controller.egg-info/entry_points.txt\n'}
+[8.547165] (keyboard_controller) StdoutLine: {'line': b'writing requirements to ../../build/keyboard_controller/keyboard_controller.egg-info/requires.txt\n'}
+[8.547765] (keyboard_controller) StdoutLine: {'line': b'writing top-level names to ../../build/keyboard_controller/keyboard_controller.egg-info/top_level.txt\n'}
+[8.581368] (-) TimerEvent: {}
+[8.682167] (-) TimerEvent: {}
+[8.708577] (kalbot_controller) StdoutLine: {'line': b"reading manifest file '../../build/kalbot_controller/kalbot_controller.egg-info/SOURCES.txt'\n"}
+[8.715053] (kalbot_controller) StdoutLine: {'line': b"writing manifest file '../../build/kalbot_controller/kalbot_controller.egg-info/SOURCES.txt'\n"}
+[8.716423] (kalbot_controller) StdoutLine: {'line': b'running build\n'}
+[8.717176] (kalbot_controller) StdoutLine: {'line': b'running build_py\n'}
+[8.717758] (kalbot_controller) StdoutLine: {'line': b'copying kalbot_controller/kalbot_controller.py -> /home/alibaba/ros2_repos/build/kalbot_controller/build/lib/kalbot_controller\n'}
+[8.718413] (kalbot_controller) StdoutLine: {'line': b'running install\n'}
+[8.719295] (kalbot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[8.722673] (kalbot_controller) StdoutLine: {'line': b'copying /home/alibaba/ros2_repos/build/kalbot_controller/build/lib/kalbot_controller/kalbot_controller.py -> /home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller\n'}
+[8.724547] (kalbot_controller) StdoutLine: {'line': b'byte-compiling /home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller/kalbot_controller.py to kalbot_controller.cpython-36.pyc\n'}
+[8.726821] (kalbot_controller) StdoutLine: {'line': b'running install_data\n'}
+[8.729090] (kalbot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.732418] (keyboard_controller) StdoutLine: {'line': b"reading manifest file '../../build/keyboard_controller/keyboard_controller.egg-info/SOURCES.txt'\n"}
+[8.736636] (kalbot_controller) StdoutLine: {'line': b"removing '/home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[8.737904] (kalbot_controller) StdoutLine: {'line': b'Copying ../../build/kalbot_controller/kalbot_controller.egg-info to /home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller-0.0.0-py3.6.egg-info\n'}
+[8.739268] (keyboard_controller) StdoutLine: {'line': b"writing manifest file '../../build/keyboard_controller/keyboard_controller.egg-info/SOURCES.txt'\n"}
+[8.740092] (keyboard_controller) StdoutLine: {'line': b'running build\n'}
+[8.740580] (keyboard_controller) StdoutLine: {'line': b'running build_py\n'}
+[8.741184] (keyboard_controller) StdoutLine: {'line': b'running install\n'}
+[8.741878] (kalbot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[8.742992] (keyboard_controller) StdoutLine: {'line': b'running install_lib\n'}
+[8.747816] (keyboard_controller) StdoutLine: {'line': b'running install_data\n'}
+[8.749977] (keyboard_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.757666] (keyboard_controller) StdoutLine: {'line': b"removing '/home/alibaba/ros2_repos/install/keyboard_controller/lib/python3.6/site-packages/keyboard_controller-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[8.759062] (keyboard_controller) StdoutLine: {'line': b'Copying ../../build/keyboard_controller/keyboard_controller.egg-info to /home/alibaba/ros2_repos/install/keyboard_controller/lib/python3.6/site-packages/keyboard_controller-0.0.0-py3.6.egg-info\n'}
+[8.763192] (keyboard_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[8.782341] (-) TimerEvent: {}
+[8.828273] (kalbot_controller) StdoutLine: {'line': b'Installing kalbot_controller script to /home/alibaba/ros2_repos/install/kalbot_controller/lib/kalbot_controller\n'}
+[8.829836] (kalbot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/alibaba/ros2_repos/build/kalbot_controller/install.log'\n"}
+[8.851475] (keyboard_controller) StdoutLine: {'line': b'Installing keyboard_controller script to /home/alibaba/ros2_repos/install/keyboard_controller/lib/keyboard_controller\n'}
+[8.852800] (keyboard_controller) StdoutLine: {'line': b"writing list of installed files to '/home/alibaba/ros2_repos/build/keyboard_controller/install.log'\n"}
+[8.882606] (-) TimerEvent: {}
+[8.941655] (kalbot_controller) CommandEnded: {'returncode': 0}
+[8.984492] (-) TimerEvent: {}
+[8.995713] (kalbot_controller) JobEnded: {'identifier': 'kalbot_controller', 'rc': 0}
+[9.012319] (keyboard_controller) CommandEnded: {'returncode': 0}
+[9.051452] (keyboard_controller) JobEnded: {'identifier': 'keyboard_controller', 'rc': 0}
+[9.055745] (-) EventReactorShutdown: {}

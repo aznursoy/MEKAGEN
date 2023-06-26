@@ -1,0 +1,5 @@
+  File "/home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller/kalbot_controller.py", line 32
+    msg = (self._command.left_motor_speed),self._command.right_motor_speed)
+                                                                          ^
+SyntaxError: invalid syntax
+

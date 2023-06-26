@@ -1,0 +1,4 @@
+Invoking command in '/home/alibaba/ros2_repos/build/kalbot_brignup': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/alibaba/ros2_repos/build/kalbot_brignup -- -j4 -l4
+Invoked command in '/home/alibaba/ros2_repos/build/kalbot_brignup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/alibaba/ros2_repos/build/kalbot_brignup -- -j4 -l4
+Invoking command in '/home/alibaba/ros2_repos/build/kalbot_brignup': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/alibaba/ros2_repos/build/kalbot_brignup --target install -- -j4 -l4
+Invoked command in '/home/alibaba/ros2_repos/build/kalbot_brignup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/alibaba/ros2_repos/build/kalbot_brignup --target install -- -j4 -l4

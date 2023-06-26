@@ -1,0 +1,4 @@
+Invoking command in '/home/alibaba/ros2_repos/build/kalbot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/alibaba/ros2_repos/build/kalbot_interfaces -- -j4 -l4
+Invoked command in '/home/alibaba/ros2_repos/build/kalbot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/alibaba/ros2_repos/build/kalbot_interfaces -- -j4 -l4
+Invoking command in '/home/alibaba/ros2_repos/build/kalbot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/alibaba/ros2_repos/build/kalbot_interfaces --target install -- -j4 -l4
+Invoked command in '/home/alibaba/ros2_repos/build/kalbot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/alibaba/ros2_repos/build/kalbot_interfaces --target install -- -j4 -l4

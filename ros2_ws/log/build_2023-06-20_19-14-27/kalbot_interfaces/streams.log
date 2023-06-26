@@ -1,0 +1,214 @@
+[0.250s] Invoking command in '/home/alibaba/ros2_repos/build/kalbot_interfaces': CMAKE_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_controller:/opt/ros/eloquent /usr/bin/cmake /home/alibaba/ros2_repos/src/kalbot_interfaces -DCMAKE_INSTALL_PREFIX=/home/alibaba/ros2_repos/install/kalbot_interfaces
+[0.395s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.640s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.844s] -- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+[3.427s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[4.208s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[5.726s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[5.782s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[6.695s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[6.935s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[6.956s] -- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)
+[7.234s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[7.236s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.238s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[7.240s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so
+[7.491s] -- Found PythonExtra: .so  
+[8.715s] -- Configuring done
+[9.072s] -- Generating done
+[9.113s] -- Build files have been written to: /home/alibaba/ros2_repos/build/kalbot_interfaces
+[9.147s] Invoked command in '/home/alibaba/ros2_repos/build/kalbot_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_controller:/opt/ros/eloquent /usr/bin/cmake /home/alibaba/ros2_repos/src/kalbot_interfaces -DCMAKE_INSTALL_PREFIX=/home/alibaba/ros2_repos/install/kalbot_interfaces
+[9.174s] Invoking command in '/home/alibaba/ros2_repos/build/kalbot_interfaces': CMAKE_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_controller:/opt/ros/eloquent /usr/bin/cmake --build /home/alibaba/ros2_repos/build/kalbot_interfaces -- -j4 -l4
+[9.580s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.582s] [35m[1mScanning dependencies of target kalbot_interfaces__cpp[0m
+[9.719s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[16.273s] [  5%] Built target kalbot_interfaces__cpp
+[16.420s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[16.423s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[17.626s] [35m[1mScanning dependencies of target kalbot_interfaces__rosidl_generator_c[0m
+[17.815s] [ 13%] [32mBuilding C object CMakeFiles/kalbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kalbot_interfaces/srv/set_motor_speed__functions.c.o[0m
+[17.819s] [ 16%] [32mBuilding C object CMakeFiles/kalbot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kalbot_interfaces/msg/motor_command__functions.c.o[0m
+[18.487s] [ 18%] [32m[1mLinking C shared library libkalbot_interfaces__rosidl_generator_c.so[0m
+[18.915s] [ 18%] Built target kalbot_interfaces__rosidl_generator_c
+[19.059s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[23.660s] [35m[1mScanning dependencies of target kalbot_interfaces__rosidl_typesupport_introspection_cpp[0m
+[23.884s] [ 24%] [32mBuilding CXX object CMakeFiles/kalbot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kalbot_interfaces/srv/set_motor_speed__type_support.cpp.o[0m
+[23.890s] [ 27%] [32mBuilding CXX object CMakeFiles/kalbot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kalbot_interfaces/msg/motor_command__type_support.cpp.o[0m
+[24.569s] [35m[1mScanning dependencies of target kalbot_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[24.961s] [ 29%] [32mBuilding CXX object CMakeFiles/kalbot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kalbot_interfaces/msg/dds_fastrtps/motor_command__type_support.cpp.o[0m
+[26.882s] [35m[1mScanning dependencies of target kalbot_interfaces__rosidl_typesupport_introspection_c[0m
+[27.223s] [ 32%] [32mBuilding C object CMakeFiles/kalbot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kalbot_interfaces/msg/motor_command__type_support.c.o[0m
+[27.713s] [ 35%] [32mBuilding C object CMakeFiles/kalbot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kalbot_interfaces/srv/set_motor_speed__type_support.c.o[0m
+[27.750s] [ 37%] [32mBuilding CXX object CMakeFiles/kalbot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kalbot_interfaces/srv/dds_fastrtps/set_motor_speed__type_support.cpp.o[0m
+[27.792s] [ 40%] [32m[1mLinking CXX shared library libkalbot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[28.257s] [ 43%] [32m[1mLinking C shared library libkalbot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[28.378s] [ 43%] Built target kalbot_interfaces__rosidl_typesupport_introspection_cpp
+[28.680s] [ 43%] Built target kalbot_interfaces__rosidl_typesupport_introspection_c
+[31.735s] [ 45%] [32m[1mLinking CXX shared library libkalbot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[32.446s] [ 45%] Built target kalbot_interfaces__rosidl_typesupport_fastrtps_cpp
+[32.579s] [ 51%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[32.582s] [ 51%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[37.972s] [35m[1mScanning dependencies of target kalbot_interfaces__rosidl_typesupport_cpp[0m
+[38.204s] [ 54%] [32mBuilding CXX object CMakeFiles/kalbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kalbot_interfaces/srv/set_motor_speed__type_support.cpp.o[0m
+[38.208s] [ 56%] [32mBuilding CXX object CMakeFiles/kalbot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kalbot_interfaces/msg/motor_command__type_support.cpp.o[0m
+[39.625s] [35m[1mScanning dependencies of target kalbot_interfaces__rosidl_typesupport_fastrtps_c[0m
+[39.933s] [ 59%] [32mBuilding CXX object CMakeFiles/kalbot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kalbot_interfaces/srv/set_motor_speed__type_support_c.cpp.o[0m
+[39.995s] [ 62%] [32mBuilding CXX object CMakeFiles/kalbot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kalbot_interfaces/msg/motor_command__type_support_c.cpp.o[0m
+[43.759s] [ 64%] [32m[1mLinking CXX shared library libkalbot_interfaces__rosidl_typesupport_cpp.so[0m
+[44.743s] [ 64%] Built target kalbot_interfaces__rosidl_typesupport_cpp
+[45.035s] [ 67%] [32m[1mLinking CXX shared library libkalbot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[45.657s] [ 67%] Built target kalbot_interfaces__rosidl_typesupport_fastrtps_c
+[45.767s] [ 70%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[49.137s] [35m[1mScanning dependencies of target kalbot_interfaces__rosidl_typesupport_c[0m
+[49.289s] [ 75%] [32mBuilding CXX object CMakeFiles/kalbot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kalbot_interfaces/msg/motor_command__type_support.cpp.o[0m
+[49.291s] [ 75%] [32mBuilding CXX object CMakeFiles/kalbot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kalbot_interfaces/srv/set_motor_speed__type_support.cpp.o[0m
+[49.609s] [ 78%] [32m[1mLinking CXX shared library libkalbot_interfaces__rosidl_typesupport_c.so[0m
+[49.991s] [ 78%] Built target kalbot_interfaces__rosidl_typesupport_c
+[50.079s] [35m[1mScanning dependencies of target kalbot_interfaces[0m
+[50.168s] [ 78%] Built target kalbot_interfaces
+[50.255s] [35m[1mScanning dependencies of target kalbot_interfaces__py[0m
+[50.346s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[57.794s] [ 81%] Built target kalbot_interfaces__py
+[57.886s] [35m[1mScanning dependencies of target kalbot_interfaces__python[0m
+[58.193s] [ 83%] [32mBuilding C object CMakeFiles/kalbot_interfaces__python.dir/rosidl_generator_py/kalbot_interfaces/srv/_set_motor_speed_s.c.o[0m
+[58.195s] [ 86%] [32mBuilding C object CMakeFiles/kalbot_interfaces__python.dir/rosidl_generator_py/kalbot_interfaces/msg/_motor_command_s.c.o[0m
+[59.348s] [ 89%] [32m[1mLinking CXX shared library rosidl_generator_py/kalbot_interfaces/libkalbot_interfaces__python.so[0m
+[59.848s] [ 89%] Built target kalbot_interfaces__python
+[59.980s] [35m[1mScanning dependencies of target kalbot_interfaces__rosidl_typesupport_c__pyext[0m
+[59.982s] [35m[1mScanning dependencies of target kalbot_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[60.253s] [ 91%] [32mBuilding C object CMakeFiles/kalbot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/kalbot_interfaces/_kalbot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[60.259s] [ 94%] [32mBuilding C object CMakeFiles/kalbot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/kalbot_interfaces/_kalbot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[61.310s] [ 97%] [32m[1mLinking CXX shared library rosidl_generator_py/kalbot_interfaces/kalbot_interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so[0m
+[61.332s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/kalbot_interfaces/kalbot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so[0m
+[62.021s] [100%] Built target kalbot_interfaces__rosidl_typesupport_c__pyext
+[62.027s] [100%] Built target kalbot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[62.125s] Invoked command in '/home/alibaba/ros2_repos/build/kalbot_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_controller:/opt/ros/eloquent /usr/bin/cmake --build /home/alibaba/ros2_repos/build/kalbot_interfaces -- -j4 -l4
+[62.867s] Invoking command in '/home/alibaba/ros2_repos/build/kalbot_interfaces': CMAKE_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_controller:/opt/ros/eloquent /usr/bin/cmake --build /home/alibaba/ros2_repos/build/kalbot_interfaces --target install -- -j4 -l4
+[63.399s] [  2%] Built target kalbot_interfaces__cpp
+[63.425s] [ 13%] Built target kalbot_interfaces__rosidl_generator_c
+[63.720s] [ 24%] Built target kalbot_interfaces__rosidl_typesupport_introspection_cpp
+[63.751s] [ 35%] Built target kalbot_interfaces__rosidl_typesupport_introspection_c
+[63.799s] [ 45%] Built target kalbot_interfaces__rosidl_typesupport_fastrtps_cpp
+[64.150s] [ 56%] Built target kalbot_interfaces__rosidl_typesupport_cpp
+[64.175s] [ 67%] Built target kalbot_interfaces__rosidl_typesupport_fastrtps_c
+[64.586s] [ 78%] Built target kalbot_interfaces__rosidl_typesupport_c
+[64.807s] [ 78%] Built target kalbot_interfaces
+[64.991s] [ 81%] Built target kalbot_interfaces__py
+[65.221s] [ 89%] Built target kalbot_interfaces__python
+[65.569s] [ 94%] Built target kalbot_interfaces__rosidl_typesupport_c__pyext
+[65.579s] [100%] Built target kalbot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[65.744s] [36mInstall the project...[0m
+[65.822s] -- Install configuration: ""
+[65.825s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/ament_index/resource_index/rosidl_interfaces/kalbot_interfaces
+[65.827s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__rosidl_typesupport_c.so
+[65.830s] -- Set runtime path of "/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__rosidl_typesupport_c.so" to ""
+[65.832s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/environment/library_path.sh
+[65.835s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/environment/library_path.dsv
+[65.837s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__rosidl_typesupport_cpp.so
+[65.841s] -- Set runtime path of "/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__rosidl_typesupport_cpp.so" to ""
+[65.846s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces
+[65.848s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv
+[65.850s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__rosidl_typesupport_fastrtps_c.h
+[65.853s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg
+[65.855s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[65.857s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__rosidl_typesupport_fastrtps_c.h
+[65.860s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__rosidl_typesupport_fastrtps_c.so
+[65.861s] -- Set runtime path of "/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[65.864s] -- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces
+[65.866s] -- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv
+[65.868s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__type_support.h
+[65.870s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed.h
+[65.871s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__functions.c
+[65.873s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__functions.h
+[65.875s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__struct.h
+[65.878s] -- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg
+[65.880s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__type_support.h
+[65.882s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__functions.c
+[65.885s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__functions.h
+[65.887s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command.h
+[65.889s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__struct.h
+[65.891s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[65.894s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__rosidl_generator_c.so
+[65.896s] -- Set runtime path of "/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__rosidl_generator_c.so" to ""
+[65.899s] -- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces
+[65.902s] -- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv
+[65.905s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__rosidl_typesupport_fastrtps_cpp.hpp
+[65.908s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/dds_fastrtps
+[65.910s] -- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg
+[65.912s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[65.919s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[65.921s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/dds_fastrtps
+[65.923s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[65.926s] -- Set runtime path of "/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[65.927s] -- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces
+[65.929s] -- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv
+[65.931s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed.hpp
+[65.933s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__traits.hpp
+[65.934s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__struct.hpp
+[65.936s] -- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg
+[65.938s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__traits.hpp
+[65.940s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command.hpp
+[65.941s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__struct.hpp
+[65.943s] -- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces
+[65.944s] -- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv
+[65.946s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__rosidl_typesupport_introspection_c.h
+[65.947s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__type_support.c
+[65.949s] -- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg
+[65.951s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__type_support.c
+[65.954s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[65.955s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__rosidl_typesupport_introspection_c.h
+[65.957s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__rosidl_typesupport_introspection_c.so
+[65.959s] -- Set runtime path of "/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[65.960s] -- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces
+[65.962s] -- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv
+[65.964s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__type_support.cpp
+[65.966s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/srv/set_motor_speed__rosidl_typesupport_introspection_cpp.hpp
+[65.968s] -- Up-to-date: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg
+[65.969s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[65.971s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/include/kalbot_interfaces/msg/motor_command__type_support.cpp
+[65.972s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__rosidl_typesupport_introspection_cpp.so
+[65.974s] -- Set runtime path of "/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[65.975s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/environment/pythonpath.sh
+[65.977s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/environment/pythonpath.dsv
+[65.979s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/__init__.py
+[66.296s] Compiling '/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/__init__.py'...
+[66.339s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/msg
+[66.341s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/msg/__init__.py
+[66.343s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/msg/_motor_command_s.c
+[66.345s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/msg/_motor_command.py
+[66.348s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/srv
+[66.350s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/srv/__init__.py
+[66.352s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/srv/_set_motor_speed.py
+[66.353s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/srv/_set_motor_speed_s.c
+[66.355s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/kalbot_interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[66.358s] -- Set runtime path of "/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/kalbot_interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[66.360s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/kalbot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[66.365s] -- Set runtime path of "/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages/kalbot_interfaces/kalbot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[66.367s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__python.so
+[66.371s] -- Set runtime path of "/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/libkalbot_interfaces__python.so" to ""
+[66.373s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/msg/MotorCommand.idl
+[66.375s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/srv/SetMotorSpeed.idl
+[66.377s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/msg/MotorCommand.msg
+[66.379s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/srv/SetMotorSpeed.srv
+[66.381s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/srv/SetMotorSpeed_Request.msg
+[66.383s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/srv/SetMotorSpeed_Response.msg
+[66.385s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/ament_index/resource_index/package_run_dependencies/kalbot_interfaces
+[66.388s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/ament_index/resource_index/parent_prefix_path/kalbot_interfaces
+[66.390s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/environment/ament_prefix_path.sh
+[66.393s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/environment/ament_prefix_path.dsv
+[66.395s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/environment/path.sh
+[66.397s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/environment/path.dsv
+[66.400s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/local_setup.bash
+[66.402s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/local_setup.sh
+[66.404s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/local_setup.zsh
+[66.406s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/local_setup.dsv
+[66.408s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/package.dsv
+[66.410s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/ament_index/resource_index/packages/kalbot_interfaces
+[66.412s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/cmake/rosidl_cmake-extras.cmake
+[66.414s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[66.416s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[66.418s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[66.420s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/cmake/kalbot_interfacesConfig.cmake
+[66.421s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/cmake/kalbot_interfacesConfig-version.cmake
+[66.423s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/package.xml
+[66.448s] Invoked command in '/home/alibaba/ros2_repos/build/kalbot_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_controller:/opt/ros/eloquent /usr/bin/cmake --build /home/alibaba/ros2_repos/build/kalbot_interfaces --target install -- -j4 -l4

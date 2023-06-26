@@ -1,0 +1,45 @@
+[0.276s] Invoking command in '/home/alibaba/ros2_repos/build/kalbot_brignup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alibaba/ros2_repos/install/kalbot_controller:/opt/ros/eloquent /usr/bin/cmake /home/alibaba/ros2_repos/src/kalbot_brignup -DCMAKE_INSTALL_PREFIX=/home/alibaba/ros2_repos/install/kalbot_brignup
+[0.942s] -- The C compiler identification is GNU 7.5.0
+[1.626s] -- The CXX compiler identification is GNU 7.5.0
+[1.671s] -- Check for working C compiler: /usr/bin/cc
+[2.504s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.511s] -- Detecting C compiler ABI info
+[3.324s] -- Detecting C compiler ABI info - done
+[3.422s] -- Detecting C compile features
+[5.990s] -- Detecting C compile features - done
+[6.040s] -- Check for working CXX compiler: /usr/bin/c++
+[7.004s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[7.012s] -- Detecting CXX compiler ABI info
+[7.953s] -- Detecting CXX compiler ABI info - done
+[8.026s] -- Detecting CXX compile features
+[12.125s] -- Detecting CXX compile features - done
+[12.164s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[12.602s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[12.604s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[17.302s] -- Configuring done
+[17.330s] -- Generating done
+[17.348s] -- Build files have been written to: /home/alibaba/ros2_repos/build/kalbot_brignup
+[17.380s] Invoked command in '/home/alibaba/ros2_repos/build/kalbot_brignup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alibaba/ros2_repos/install/kalbot_controller:/opt/ros/eloquent /usr/bin/cmake /home/alibaba/ros2_repos/src/kalbot_brignup -DCMAKE_INSTALL_PREFIX=/home/alibaba/ros2_repos/install/kalbot_brignup
+[17.399s] Invoking command in '/home/alibaba/ros2_repos/build/kalbot_brignup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alibaba/ros2_repos/install/kalbot_controller:/opt/ros/eloquent /usr/bin/cmake --build /home/alibaba/ros2_repos/build/kalbot_brignup -- -j4 -l4
+[17.927s] Invoked command in '/home/alibaba/ros2_repos/build/kalbot_brignup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alibaba/ros2_repos/install/kalbot_controller:/opt/ros/eloquent /usr/bin/cmake --build /home/alibaba/ros2_repos/build/kalbot_brignup -- -j4 -l4
+[18.227s] Invoking command in '/home/alibaba/ros2_repos/build/kalbot_brignup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alibaba/ros2_repos/install/kalbot_controller:/opt/ros/eloquent /usr/bin/cmake --build /home/alibaba/ros2_repos/build/kalbot_brignup --target install -- -j4 -l4
+[18.865s] [36mInstall the project...[0m
+[18.975s] -- Install configuration: ""
+[18.979s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/launch
+[18.982s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/launch/demo.launch.py
+[18.984s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_brignup/share/ament_index/resource_index/package_run_dependencies/kalbot_brignup
+[18.986s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_brignup/share/ament_index/resource_index/parent_prefix_path/kalbot_brignup
+[18.989s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/environment/ament_prefix_path.sh
+[18.991s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/environment/ament_prefix_path.dsv
+[18.993s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/environment/path.sh
+[18.996s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/environment/path.dsv
+[18.998s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/local_setup.bash
+[19.009s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/local_setup.sh
+[19.011s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/local_setup.zsh
+[19.014s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/local_setup.dsv
+[19.021s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/package.dsv
+[19.026s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_brignup/share/ament_index/resource_index/packages/kalbot_brignup
+[19.028s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/cmake/kalbot_brignupConfig.cmake
+[19.032s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/cmake/kalbot_brignupConfig-version.cmake
+[19.035s] -- Installing: /home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/package.xml
+[19.057s] Invoked command in '/home/alibaba/ros2_repos/build/kalbot_brignup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alibaba/ros2_repos/install/kalbot_controller:/opt/ros/eloquent /usr/bin/cmake --build /home/alibaba/ros2_repos/build/kalbot_brignup --target install -- -j4 -l4

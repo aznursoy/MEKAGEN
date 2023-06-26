@@ -1,0 +1,21 @@
+[11.903s] Invoking command in '/home/alibaba/ros2_repos/src/kalbot_controller': PYTHONPATH=/home/alibaba/ros2_repos/build/kalbot_controller/prefix_override:/home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/kalbot_controller build --build-base /home/alibaba/ros2_repos/build/kalbot_controller/build install --record /home/alibaba/ros2_repos/build/kalbot_controller/install.log --single-version-externally-managed
+[15.678s] running egg_info
+[15.688s] writing ../../build/kalbot_controller/kalbot_controller.egg-info/PKG-INFO
+[15.693s] writing dependency_links to ../../build/kalbot_controller/kalbot_controller.egg-info/dependency_links.txt
+[15.698s] writing entry points to ../../build/kalbot_controller/kalbot_controller.egg-info/entry_points.txt
+[15.701s] writing requirements to ../../build/kalbot_controller/kalbot_controller.egg-info/requires.txt
+[15.703s] writing top-level names to ../../build/kalbot_controller/kalbot_controller.egg-info/top_level.txt
+[16.334s] reading manifest file '../../build/kalbot_controller/kalbot_controller.egg-info/SOURCES.txt'
+[16.362s] writing manifest file '../../build/kalbot_controller/kalbot_controller.egg-info/SOURCES.txt'
+[16.364s] running build
+[16.366s] running build_py
+[16.369s] running install
+[16.373s] running install_lib
+[16.387s] running install_data
+[16.394s] running install_egg_info
+[16.418s] removing '/home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller-0.0.0-py3.6.egg-info' (and everything under it)
+[16.422s] Copying ../../build/kalbot_controller/kalbot_controller.egg-info to /home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller-0.0.0-py3.6.egg-info
+[16.451s] running install_scripts
+[16.732s] Installing kalbot_controller script to /home/alibaba/ros2_repos/install/kalbot_controller/lib/kalbot_controller
+[16.736s] writing list of installed files to '/home/alibaba/ros2_repos/build/kalbot_controller/install.log'
+[17.003s] Invoked command in '/home/alibaba/ros2_repos/src/kalbot_controller' returned '0': PYTHONPATH=/home/alibaba/ros2_repos/build/kalbot_controller/prefix_override:/home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/kalbot_controller build --build-base /home/alibaba/ros2_repos/build/kalbot_controller/build install --record /home/alibaba/ros2_repos/build/kalbot_controller/install.log --single-version-externally-managed

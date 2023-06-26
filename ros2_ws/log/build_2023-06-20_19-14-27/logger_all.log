@@ -1,0 +1,170 @@
+[1.726s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'kalbot_interfaces']
+[1.727s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f90e916a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['kalbot_interfaces'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f90e916a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f90e91a20>)
+[2.017s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.018s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.018s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.019s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.019s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.021s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.021s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/alibaba/ros2_repos'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.136s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.137s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.137s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.141s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalbot_controller) by extensions ['ignore', 'ignore_ament_install']
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalbot_controller) by extension 'ignore'
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalbot_controller) by extension 'ignore_ament_install'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalbot_controller) by extensions ['colcon_pkg']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalbot_controller) by extension 'colcon_pkg'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalbot_controller) by extensions ['colcon_meta']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalbot_controller) by extension 'colcon_meta'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalbot_controller) by extensions ['ros']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalbot_controller) by extension 'ros'
+[2.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kalbot_controller' with type 'ros.ament_python' and name 'kalbot_controller'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalbot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalbot_interfaces) by extension 'ignore'
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalbot_interfaces) by extension 'ignore_ament_install'
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalbot_interfaces) by extensions ['colcon_pkg']
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalbot_interfaces) by extension 'colcon_pkg'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalbot_interfaces) by extensions ['colcon_meta']
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalbot_interfaces) by extension 'colcon_meta'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalbot_interfaces) by extensions ['ros']
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/kalbot_interfaces) by extension 'ros'
+[2.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kalbot_interfaces' with type 'ros.ament_cmake' and name 'kalbot_interfaces'
+[2.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.395s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'kalbot_controller' in 'src/kalbot_controller'
+[2.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.441s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/alibaba/ros2_repos/install
+[2.461s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 232 installed packages in /opt/ros/eloquent
+[2.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.063s] Level 5:colcon.colcon_core.verb:set package 'kalbot_interfaces' build argument 'cmake_args' from command line to 'None'
+[3.063s] Level 5:colcon.colcon_core.verb:set package 'kalbot_interfaces' build argument 'cmake_target' from command line to 'None'
+[3.063s] Level 5:colcon.colcon_core.verb:set package 'kalbot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.063s] Level 5:colcon.colcon_core.verb:set package 'kalbot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[3.064s] Level 5:colcon.colcon_core.verb:set package 'kalbot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[3.064s] Level 5:colcon.colcon_core.verb:set package 'kalbot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[3.064s] Level 5:colcon.colcon_core.verb:set package 'kalbot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[3.064s] Level 5:colcon.colcon_core.verb:set package 'kalbot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[3.065s] Level 5:colcon.colcon_core.verb:set package 'kalbot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.065s] DEBUG:colcon.colcon_core.verb:Building package 'kalbot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/alibaba/ros2_repos/build/kalbot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/alibaba/ros2_repos/install/kalbot_interfaces', 'merge_install': False, 'path': '/home/alibaba/ros2_repos/src/kalbot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[3.071s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.100s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.102s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/alibaba/ros2_repos/src/kalbot_interfaces' with build type 'ament_cmake'
+[3.103s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/alibaba/ros2_repos/src/kalbot_interfaces'
+[3.172s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.176s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.177s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alibaba/ros2_repos/build/kalbot_interfaces': CMAKE_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_controller:/opt/ros/eloquent /usr/bin/cmake /home/alibaba/ros2_repos/src/kalbot_interfaces -DCMAKE_INSTALL_PREFIX=/home/alibaba/ros2_repos/install/kalbot_interfaces
+[12.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alibaba/ros2_repos/build/kalbot_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_controller:/opt/ros/eloquent /usr/bin/cmake /home/alibaba/ros2_repos/src/kalbot_interfaces -DCMAKE_INSTALL_PREFIX=/home/alibaba/ros2_repos/install/kalbot_interfaces
+[12.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alibaba/ros2_repos/build/kalbot_interfaces': CMAKE_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_controller:/opt/ros/eloquent /usr/bin/cmake --build /home/alibaba/ros2_repos/build/kalbot_interfaces -- -j4 -l4
+[65.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alibaba/ros2_repos/build/kalbot_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_controller:/opt/ros/eloquent /usr/bin/cmake --build /home/alibaba/ros2_repos/build/kalbot_interfaces -- -j4 -l4
+[65.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/alibaba/ros2_repos/build/kalbot_interfaces': CMAKE_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_controller:/opt/ros/eloquent /usr/bin/cmake --build /home/alibaba/ros2_repos/build/kalbot_interfaces --target install -- -j4 -l4
+[69.545s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kalbot_interfaces)
+[69.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/alibaba/ros2_repos/build/kalbot_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_controller:/opt/ros/eloquent /usr/bin/cmake --build /home/alibaba/ros2_repos/build/kalbot_interfaces --target install -- -j4 -l4
+[69.612s] Level 1:colcon.colcon_core.environment:checking '/home/alibaba/ros2_repos/install/kalbot_interfaces' for CMake module files
+[69.619s] Level 1:colcon.colcon_core.environment:checking '/home/alibaba/ros2_repos/install/kalbot_interfaces' for CMake config files
+[69.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('kalbot_interfaces', 'cmake_prefix_path')
+[69.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/hook/cmake_prefix_path.ps1'
+[69.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/hook/cmake_prefix_path.dsv'
+[69.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/hook/cmake_prefix_path.sh'
+[69.657s] Level 1:colcon.colcon_core.environment:checking '/home/alibaba/ros2_repos/install/kalbot_interfaces/lib'
+[69.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('kalbot_interfaces', 'ld_library_path_lib')
+[69.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/hook/ld_library_path_lib.ps1'
+[69.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/hook/ld_library_path_lib.dsv'
+[69.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/hook/ld_library_path_lib.sh'
+[69.682s] Level 1:colcon.colcon_core.environment:checking '/home/alibaba/ros2_repos/install/kalbot_interfaces/bin'
+[69.682s] Level 1:colcon.colcon_core.environment:checking '/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/pkgconfig/kalbot_interfaces.pc'
+[69.684s] Level 1:colcon.colcon_core.environment:checking '/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages'
+[69.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('kalbot_interfaces', 'pythonpath')
+[69.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/hook/pythonpath.ps1'
+[69.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/hook/pythonpath.dsv'
+[69.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/hook/pythonpath.sh'
+[69.716s] Level 1:colcon.colcon_core.environment:checking '/home/alibaba/ros2_repos/install/kalbot_interfaces/bin'
+[69.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/package.ps1'
+[69.745s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/package.dsv'
+[69.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/package.sh'
+[69.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/package.bash'
+[69.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/package.zsh'
+[69.788s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alibaba/ros2_repos/install/kalbot_interfaces/share/colcon-core/packages/kalbot_interfaces)
+[70.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kalbot_interfaces)
+[70.455s] Level 1:colcon.colcon_core.environment:checking '/home/alibaba/ros2_repos/install/kalbot_interfaces' for CMake module files
+[70.461s] Level 1:colcon.colcon_core.environment:checking '/home/alibaba/ros2_repos/install/kalbot_interfaces' for CMake config files
+[70.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('kalbot_interfaces', 'cmake_prefix_path')
+[70.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/hook/cmake_prefix_path.ps1'
+[70.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/hook/cmake_prefix_path.dsv'
+[70.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/hook/cmake_prefix_path.sh'
+[70.501s] Level 1:colcon.colcon_core.environment:checking '/home/alibaba/ros2_repos/install/kalbot_interfaces/lib'
+[70.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('kalbot_interfaces', 'ld_library_path_lib')
+[70.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/hook/ld_library_path_lib.ps1'
+[70.524s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/hook/ld_library_path_lib.dsv'
+[70.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/hook/ld_library_path_lib.sh'
+[70.535s] Level 1:colcon.colcon_core.environment:checking '/home/alibaba/ros2_repos/install/kalbot_interfaces/bin'
+[70.536s] Level 1:colcon.colcon_core.environment:checking '/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/pkgconfig/kalbot_interfaces.pc'
+[70.540s] Level 1:colcon.colcon_core.environment:checking '/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages'
+[70.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('kalbot_interfaces', 'pythonpath')
+[70.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/hook/pythonpath.ps1'
+[70.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/hook/pythonpath.dsv'
+[70.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/hook/pythonpath.sh'
+[70.572s] Level 1:colcon.colcon_core.environment:checking '/home/alibaba/ros2_repos/install/kalbot_interfaces/bin'
+[70.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/package.ps1'
+[70.595s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/package.dsv'
+[70.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/package.sh'
+[70.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/package.bash'
+[70.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/alibaba/ros2_repos/install/kalbot_interfaces/share/kalbot_interfaces/package.zsh'
+[70.620s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/alibaba/ros2_repos/install/kalbot_interfaces/share/colcon-core/packages/kalbot_interfaces)
+[70.623s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[70.631s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[70.634s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[70.635s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[70.721s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[70.724s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[70.725s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[70.782s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[70.796s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alibaba/ros2_repos/install/local_setup.ps1'
+[70.808s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alibaba/ros2_repos/install/_local_setup_util_ps1.py'
+[70.830s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alibaba/ros2_repos/install/setup.ps1'
+[70.847s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alibaba/ros2_repos/install/local_setup.sh'
+[70.855s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/alibaba/ros2_repos/install/_local_setup_util_sh.py'
+[70.859s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alibaba/ros2_repos/install/setup.sh'
+[70.876s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alibaba/ros2_repos/install/local_setup.bash'
+[70.884s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alibaba/ros2_repos/install/setup.bash'
+[70.899s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/alibaba/ros2_repos/install/local_setup.zsh'
+[70.906s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/alibaba/ros2_repos/install/setup.zsh'

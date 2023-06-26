@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.001164] (kalbot_controller) JobQueued: {'identifier': 'kalbot_controller', 'dependencies': OrderedDict()}
+[0.001753] (kalbot_controller) JobStarted: {'identifier': 'kalbot_controller'}
+[0.095077] (-) TimerEvent: {}
+[0.198789] (-) TimerEvent: {}
+[0.301469] (-) TimerEvent: {}
+[0.403826] (-) TimerEvent: {}
+[0.505671] (-) TimerEvent: {}
+[0.607362] (-) TimerEvent: {}
+[0.709354] (-) TimerEvent: {}
+[0.811041] (-) TimerEvent: {}
+[0.912744] (-) TimerEvent: {}
+[1.014712] (-) TimerEvent: {}
+[1.116103] (-) TimerEvent: {}
+[1.217977] (-) TimerEvent: {}
+[1.319622] (-) TimerEvent: {}
+[1.421570] (-) TimerEvent: {}
+[1.523073] (-) TimerEvent: {}
+[1.624697] (-) TimerEvent: {}
+[1.726188] (-) TimerEvent: {}
+[1.827794] (-) TimerEvent: {}
+[1.929883] (-) TimerEvent: {}
+[2.031331] (-) TimerEvent: {}
+[2.132707] (-) TimerEvent: {}
+[2.234378] (-) TimerEvent: {}
+[2.335864] (-) TimerEvent: {}
+[2.437512] (-) TimerEvent: {}
+[2.539424] (-) TimerEvent: {}
+[2.646566] (-) TimerEvent: {}
+[2.750596] (-) TimerEvent: {}
+[2.852804] (-) TimerEvent: {}
+[2.954654] (-) TimerEvent: {}
+[3.056340] (-) TimerEvent: {}
+[3.158169] (-) TimerEvent: {}
+[3.259855] (-) TimerEvent: {}
+[3.361569] (-) TimerEvent: {}
+[3.463224] (-) TimerEvent: {}
+[3.565265] (-) TimerEvent: {}
+[3.666857] (-) TimerEvent: {}
+[3.768690] (-) TimerEvent: {}
+[3.870465] (-) TimerEvent: {}
+[3.971864] (-) TimerEvent: {}
+[4.073575] (-) TimerEvent: {}
+[4.175282] (-) TimerEvent: {}
+[4.276928] (-) TimerEvent: {}
+[4.378615] (-) TimerEvent: {}
+[4.480162] (-) TimerEvent: {}
+[4.581750] (-) TimerEvent: {}
+[4.683875] (-) TimerEvent: {}
+[4.785659] (-) TimerEvent: {}
+[4.887147] (-) TimerEvent: {}
+[4.988849] (-) TimerEvent: {}
+[5.090961] (-) TimerEvent: {}
+[5.192524] (-) TimerEvent: {}
+[5.294505] (-) TimerEvent: {}
+[5.396386] (-) TimerEvent: {}
+[5.498381] (-) TimerEvent: {}
+[5.599989] (-) TimerEvent: {}
+[5.701912] (-) TimerEvent: {}
+[5.803388] (-) TimerEvent: {}
+[5.905323] (-) TimerEvent: {}
+[6.007295] (-) TimerEvent: {}
+[6.109531] (-) TimerEvent: {}
+[6.211114] (-) TimerEvent: {}
+[6.313238] (-) TimerEvent: {}
+[6.415206] (-) TimerEvent: {}
+[6.426135] (kalbot_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/kalbot_controller', 'build', '--build-base', '/home/alibaba/ros2_repos/build/kalbot_controller/build', 'install', '--record', '/home/alibaba/ros2_repos/build/kalbot_controller/install.log', '--install-scripts', '$base/lib/kalbot_controller', '--single-version-externally-managed'], 'cwd': '/home/alibaba/ros2_repos/src/kalbot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GTK_CSD': '0', 'USER': 'alibaba', 'LANGUAGE': 'en_US', 'LC_TIME': 'tr_TR.UTF-8', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '6179', 'XDG_SESSION_TYPE': 'x11', 'LD_LIBRARY_PATH': '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib', 'SHLVL': '1', 'HOME': '/home/alibaba', 'OLDPWD': '/home/alibaba/ros2_repos/src', 'DESKTOP_SESSION': 'LXDE', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'tr_TR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/alibaba/ros2_install', 'MANDATORY_PATH': '/usr/share/gconf/ux-LXDE.mandatory.path', 'ROS_DISTRO': 'eloquent', 'LOGNAME': 'alibaba', '_': '/usr/bin/colcon', 'DEFAULTS_PATH': '/usr/share/gconf/ux-LXDE.default.path', 'ROS_VERSION': '2', 'XDG_SESSION_ID': 'c1', 'TERM': 'xterm-256color', 'SAL_USE_VCLPLUGIN': 'gtk', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'GDM_LANG': 'en_US', 'XDG_MENU_PREFIX': 'lxde-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'LXDE', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'LD_PRELOAD': 'libgtk3-nocsd.so.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CONFIG_HOME': '/home/alibaba/.config', 'XDG_SESSION_DESKTOP': 'ux-LXDE', 'XAUTHORITY': '/home/alibaba/.Xauthority', 'XDG_DATA_HOME': '/home/alibaba/.local/share', 'AMENT_PREFIX_PATH': '/opt/ros/eloquent', 'SSH_AUTH_SOCK': '/tmp/ssh-4JjpO0Pz62mE/agent.5633', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/alibaba', 'LC_NAME': 'tr_TR.UTF-8', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ux-LXDE', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', '_LXSESSION_PID': '5633', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'XDG_VTNR': '7', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/alibaba/ros2_repos/build/kalbot_controller', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ux-LXDE:/etc/xdg', 'LC_NUMERIC': 'tr_TR.UTF-8', 'PYTHONPATH': '/home/alibaba/ros2_repos/build/kalbot_controller/prefix_override:/home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '5202'}, 'shell': False}
+[6.515633] (-) TimerEvent: {}
+[6.618184] (-) TimerEvent: {}
+[6.719907] (-) TimerEvent: {}
+[6.821518] (-) TimerEvent: {}
+[6.923108] (-) TimerEvent: {}
+[7.024700] (-) TimerEvent: {}
+[7.126312] (-) TimerEvent: {}
+[7.227940] (-) TimerEvent: {}
+[7.329713] (-) TimerEvent: {}
+[7.431476] (-) TimerEvent: {}
+[7.533153] (-) TimerEvent: {}
+[7.636716] (-) TimerEvent: {}
+[7.738268] (-) TimerEvent: {}
+[7.839771] (-) TimerEvent: {}
+[7.941543] (-) TimerEvent: {}
+[8.042982] (-) TimerEvent: {}
+[8.144358] (-) TimerEvent: {}
+[8.246289] (-) TimerEvent: {}
+[8.347652] (-) TimerEvent: {}
+[8.449300] (-) TimerEvent: {}
+[8.550927] (-) TimerEvent: {}
+[8.616570] (kalbot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[8.622629] (kalbot_controller) StdoutLine: {'line': b'creating ../../build/kalbot_controller/kalbot_controller.egg-info\n'}
+[8.624667] (kalbot_controller) StdoutLine: {'line': b'writing ../../build/kalbot_controller/kalbot_controller.egg-info/PKG-INFO\n'}
+[8.628405] (kalbot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/kalbot_controller/kalbot_controller.egg-info/dependency_links.txt\n'}
+[8.631280] (kalbot_controller) StdoutLine: {'line': b'writing entry points to ../../build/kalbot_controller/kalbot_controller.egg-info/entry_points.txt\n'}
+[8.633403] (kalbot_controller) StdoutLine: {'line': b'writing requirements to ../../build/kalbot_controller/kalbot_controller.egg-info/requires.txt\n'}
+[8.635193] (kalbot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/kalbot_controller/kalbot_controller.egg-info/top_level.txt\n'}
+[8.637180] (kalbot_controller) StdoutLine: {'line': b"writing manifest file '../../build/kalbot_controller/kalbot_controller.egg-info/SOURCES.txt'\n"}
+[8.651265] (-) TimerEvent: {}
+[8.753244] (-) TimerEvent: {}
+[8.854978] (-) TimerEvent: {}
+[8.956415] (-) TimerEvent: {}
+[8.975203] (kalbot_controller) StdoutLine: {'line': b"reading manifest file '../../build/kalbot_controller/kalbot_controller.egg-info/SOURCES.txt'\n"}
+[8.995728] (kalbot_controller) StdoutLine: {'line': b"writing manifest file '../../build/kalbot_controller/kalbot_controller.egg-info/SOURCES.txt'\n"}
+[8.998596] (kalbot_controller) StdoutLine: {'line': b'running build\n'}
+[9.000484] (kalbot_controller) StdoutLine: {'line': b'running build_py\n'}
+[9.003755] (kalbot_controller) StdoutLine: {'line': b'creating /home/alibaba/ros2_repos/build/kalbot_controller/build\n'}
+[9.006259] (kalbot_controller) StdoutLine: {'line': b'creating /home/alibaba/ros2_repos/build/kalbot_controller/build/lib\n'}
+[9.008232] (kalbot_controller) StdoutLine: {'line': b'creating /home/alibaba/ros2_repos/build/kalbot_controller/build/lib/kalbot_controller\n'}
+[9.010224] (kalbot_controller) StdoutLine: {'line': b'copying kalbot_controller/__init__.py -> /home/alibaba/ros2_repos/build/kalbot_controller/build/lib/kalbot_controller\n'}
+[9.011742] (kalbot_controller) StdoutLine: {'line': b'running install\n'}
+[9.014142] (kalbot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[9.019417] (kalbot_controller) StdoutLine: {'line': b'creating /home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller\n'}
+[9.022464] (kalbot_controller) StdoutLine: {'line': b'copying /home/alibaba/ros2_repos/build/kalbot_controller/build/lib/kalbot_controller/__init__.py -> /home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller\n'}
+[9.025266] (kalbot_controller) StdoutLine: {'line': b'byte-compiling /home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller/__init__.py to __init__.cpython-36.pyc\n'}
+[9.027548] (kalbot_controller) StdoutLine: {'line': b'running install_data\n'}
+[9.031295] (kalbot_controller) StdoutLine: {'line': b'creating /home/alibaba/ros2_repos/install/kalbot_controller/share/ament_index\n'}
+[9.034163] (kalbot_controller) StdoutLine: {'line': b'creating /home/alibaba/ros2_repos/install/kalbot_controller/share/ament_index/resource_index\n'}
+[9.036082] (kalbot_controller) StdoutLine: {'line': b'creating /home/alibaba/ros2_repos/install/kalbot_controller/share/ament_index/resource_index/packages\n'}
+[9.037696] (kalbot_controller) StdoutLine: {'line': b'copying resource/kalbot_controller -> /home/alibaba/ros2_repos/install/kalbot_controller/share/ament_index/resource_index/packages\n'}
+[9.038947] (kalbot_controller) StdoutLine: {'line': b'copying package.xml -> /home/alibaba/ros2_repos/install/kalbot_controller/share/kalbot_controller\n'}
+[9.040202] (kalbot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.054735] (kalbot_controller) StdoutLine: {'line': b'Copying ../../build/kalbot_controller/kalbot_controller.egg-info to /home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller-0.0.0-py3.6.egg-info\n'}
+[9.056607] (-) TimerEvent: {}
+[9.062396] (kalbot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[9.157262] (-) TimerEvent: {}
+[9.233317] (kalbot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/alibaba/ros2_repos/build/kalbot_controller/install.log'\n"}
+[9.257854] (-) TimerEvent: {}
+[9.359856] (-) TimerEvent: {}
+[9.410388] (kalbot_controller) CommandEnded: {'returncode': 0}
+[9.460127] (-) TimerEvent: {}
+[9.567489] (-) TimerEvent: {}
+[9.644352] (kalbot_controller) JobEnded: {'identifier': 'kalbot_controller', 'rc': 0}
+[9.652243] (-) EventReactorShutdown: {}

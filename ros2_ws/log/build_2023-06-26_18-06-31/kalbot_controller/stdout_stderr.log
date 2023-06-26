@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/kalbot_controller/kalbot_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/kalbot_controller/kalbot_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/kalbot_controller/kalbot_controller.egg-info/entry_points.txt
+writing requirements to ../../build/kalbot_controller/kalbot_controller.egg-info/requires.txt
+writing top-level names to ../../build/kalbot_controller/kalbot_controller.egg-info/top_level.txt
+reading manifest file '../../build/kalbot_controller/kalbot_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/kalbot_controller/kalbot_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying kalbot_controller/kalbot_controller.py -> /home/alibaba/ros2_repos/build/kalbot_controller/build/lib/kalbot_controller
+running install
+running install_lib
+copying /home/alibaba/ros2_repos/build/kalbot_controller/build/lib/kalbot_controller/kalbot_controller.py -> /home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller
+byte-compiling /home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller/kalbot_controller.py to kalbot_controller.cpython-36.pyc
+  File "/home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller/kalbot_controller.py", line 32
+    msg = {"Left Motor": self._command.left_motor_speed,"Right Motor": self._command.right_motor_speed)
+                                                                                                      ^
+SyntaxError: invalid syntax
+
+running install_data
+running install_egg_info
+removing '/home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller-0.0.0-py3.6.egg-info' (and everything under it)
+Copying ../../build/kalbot_controller/kalbot_controller.egg-info to /home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller-0.0.0-py3.6.egg-info
+running install_scripts
+Installing kalbot_controller script to /home/alibaba/ros2_repos/install/kalbot_controller/lib/kalbot_controller
+writing list of installed files to '/home/alibaba/ros2_repos/build/kalbot_controller/install.log'

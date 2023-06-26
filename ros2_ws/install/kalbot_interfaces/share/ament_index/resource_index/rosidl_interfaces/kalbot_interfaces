@@ -1,0 +1,6 @@
+msg/MotorCommand.idl
+msg/MotorCommand.msg
+srv/SetMotorSpeed.idl
+srv/SetMotorSpeed.srv
+srv/SetMotorSpeed_Request.msg
+srv/SetMotorSpeed_Response.msg

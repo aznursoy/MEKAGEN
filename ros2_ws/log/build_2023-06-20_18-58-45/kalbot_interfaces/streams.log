@@ -1,0 +1,16 @@
+[2.890s] Invoking command in '/home/alibaba/ros2_repos/build/kalbot_interfaces': CMAKE_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_controller:/opt/ros/eloquent /usr/bin/cmake /home/alibaba/ros2_repos/src/kalbot_interfaces -DCMAKE_INSTALL_PREFIX=/home/alibaba/ros2_repos/install/kalbot_interfaces
+[3.079s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[3.468s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.810s] -- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+[7.788s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[8.874s] CMake Error at /opt/ros/eloquent/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[8.881s]   rosidl_generate_interfaces() the passed file 'msg/MotorCommand.msg' doesn't
+[8.883s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[8.885s]   '/home/alibaba/ros2_repos/src/kalbot_interfaces'
+[8.887s] Call Stack (most recent call first):
+[8.888s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[8.891s] 
+[8.893s] 
+[8.895s] -- Configuring incomplete, errors occurred!
+[8.898s] See also "/home/alibaba/ros2_repos/build/kalbot_interfaces/CMakeFiles/CMakeOutput.log".
+[8.912s] Invoked command in '/home/alibaba/ros2_repos/build/kalbot_interfaces' returned '1': CMAKE_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_controller:/opt/ros/eloquent /usr/bin/cmake /home/alibaba/ros2_repos/src/kalbot_interfaces -DCMAKE_INSTALL_PREFIX=/home/alibaba/ros2_repos/install/kalbot_interfaces

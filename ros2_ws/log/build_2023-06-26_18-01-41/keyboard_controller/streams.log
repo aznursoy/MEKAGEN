@@ -1,0 +1,21 @@
+[4.228s] Invoking command in '/home/alibaba/ros2_repos/src/keyboard_controller': AMENT_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_interfaces LD_LIBRARY_PATH=/home/alibaba/ros2_repos/install/kalbot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alibaba/ros2_repos/build/keyboard_controller/prefix_override:/home/alibaba/ros2_repos/install/keyboard_controller/lib/python3.6/site-packages:/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/keyboard_controller build --build-base /home/alibaba/ros2_repos/build/keyboard_controller/build install --record /home/alibaba/ros2_repos/build/keyboard_controller/install.log --single-version-externally-managed
+[5.404s] running egg_info
+[5.408s] writing ../../build/keyboard_controller/keyboard_controller.egg-info/PKG-INFO
+[5.409s] writing dependency_links to ../../build/keyboard_controller/keyboard_controller.egg-info/dependency_links.txt
+[5.410s] writing entry points to ../../build/keyboard_controller/keyboard_controller.egg-info/entry_points.txt
+[5.411s] writing requirements to ../../build/keyboard_controller/keyboard_controller.egg-info/requires.txt
+[5.412s] writing top-level names to ../../build/keyboard_controller/keyboard_controller.egg-info/top_level.txt
+[5.596s] reading manifest file '../../build/keyboard_controller/keyboard_controller.egg-info/SOURCES.txt'
+[5.603s] writing manifest file '../../build/keyboard_controller/keyboard_controller.egg-info/SOURCES.txt'
+[5.604s] running build
+[5.604s] running build_py
+[5.605s] running install
+[5.607s] running install_lib
+[5.611s] running install_data
+[5.614s] running install_egg_info
+[5.621s] removing '/home/alibaba/ros2_repos/install/keyboard_controller/lib/python3.6/site-packages/keyboard_controller-0.0.0-py3.6.egg-info' (and everything under it)
+[5.623s] Copying ../../build/keyboard_controller/keyboard_controller.egg-info to /home/alibaba/ros2_repos/install/keyboard_controller/lib/python3.6/site-packages/keyboard_controller-0.0.0-py3.6.egg-info
+[5.627s] running install_scripts
+[5.715s] Installing keyboard_controller script to /home/alibaba/ros2_repos/install/keyboard_controller/lib/keyboard_controller
+[5.716s] writing list of installed files to '/home/alibaba/ros2_repos/build/keyboard_controller/install.log'
+[5.876s] Invoked command in '/home/alibaba/ros2_repos/src/keyboard_controller' returned '0': AMENT_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_interfaces LD_LIBRARY_PATH=/home/alibaba/ros2_repos/install/kalbot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alibaba/ros2_repos/build/keyboard_controller/prefix_override:/home/alibaba/ros2_repos/install/keyboard_controller/lib/python3.6/site-packages:/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/keyboard_controller build --build-base /home/alibaba/ros2_repos/build/keyboard_controller/build install --record /home/alibaba/ros2_repos/build/keyboard_controller/install.log --single-version-externally-managed

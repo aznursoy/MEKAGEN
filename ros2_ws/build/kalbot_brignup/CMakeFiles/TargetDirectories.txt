@@ -1,0 +1,9 @@
+/home/alibaba/ros2_repos/build/kalbot_brignup/CMakeFiles/install/strip.dir
+/home/alibaba/ros2_repos/build/kalbot_brignup/CMakeFiles/install.dir
+/home/alibaba/ros2_repos/build/kalbot_brignup/CMakeFiles/uninstall.dir
+/home/alibaba/ros2_repos/build/kalbot_brignup/CMakeFiles/install/local.dir
+/home/alibaba/ros2_repos/build/kalbot_brignup/CMakeFiles/test.dir
+/home/alibaba/ros2_repos/build/kalbot_brignup/CMakeFiles/list_install_components.dir
+/home/alibaba/ros2_repos/build/kalbot_brignup/CMakeFiles/kalbot_brignup_uninstall.dir
+/home/alibaba/ros2_repos/build/kalbot_brignup/CMakeFiles/edit_cache.dir
+/home/alibaba/ros2_repos/build/kalbot_brignup/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,24 @@
+[4.197s] Invoking command in '/home/alibaba/ros2_repos/src/kalbot_controller': AMENT_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_interfaces LD_LIBRARY_PATH=/home/alibaba/ros2_repos/install/kalbot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alibaba/ros2_repos/build/kalbot_controller/prefix_override:/home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages:/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/kalbot_controller build --build-base /home/alibaba/ros2_repos/build/kalbot_controller/build install --record /home/alibaba/ros2_repos/build/kalbot_controller/install.log --single-version-externally-managed
+[5.308s] running egg_info
+[5.313s] writing ../../build/kalbot_controller/kalbot_controller.egg-info/PKG-INFO
+[5.313s] writing dependency_links to ../../build/kalbot_controller/kalbot_controller.egg-info/dependency_links.txt
+[5.314s] writing entry points to ../../build/kalbot_controller/kalbot_controller.egg-info/entry_points.txt
+[5.315s] writing requirements to ../../build/kalbot_controller/kalbot_controller.egg-info/requires.txt
+[5.316s] writing top-level names to ../../build/kalbot_controller/kalbot_controller.egg-info/top_level.txt
+[5.496s] reading manifest file '../../build/kalbot_controller/kalbot_controller.egg-info/SOURCES.txt'
+[5.504s] writing manifest file '../../build/kalbot_controller/kalbot_controller.egg-info/SOURCES.txt'
+[5.505s] running build
+[5.505s] running build_py
+[5.506s] copying kalbot_controller/kalbot_controller.py -> /home/alibaba/ros2_repos/build/kalbot_controller/build/lib/kalbot_controller
+[5.507s] running install
+[5.508s] running install_lib
+[5.511s] copying /home/alibaba/ros2_repos/build/kalbot_controller/build/lib/kalbot_controller/kalbot_controller.py -> /home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller
+[5.513s] byte-compiling /home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller/kalbot_controller.py to kalbot_controller.cpython-36.pyc
+[5.515s] running install_data
+[5.518s] running install_egg_info
+[5.525s] removing '/home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller-0.0.0-py3.6.egg-info' (and everything under it)
+[5.526s] Copying ../../build/kalbot_controller/kalbot_controller.egg-info to /home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller-0.0.0-py3.6.egg-info
+[5.530s] running install_scripts
+[5.620s] Installing kalbot_controller script to /home/alibaba/ros2_repos/install/kalbot_controller/lib/kalbot_controller
+[5.621s] writing list of installed files to '/home/alibaba/ros2_repos/build/kalbot_controller/install.log'
+[5.780s] Invoked command in '/home/alibaba/ros2_repos/src/kalbot_controller' returned '0': AMENT_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alibaba/ros2_repos/install/kalbot_interfaces LD_LIBRARY_PATH=/home/alibaba/ros2_repos/install/kalbot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alibaba/ros2_repos/build/kalbot_controller/prefix_override:/home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages:/home/alibaba/ros2_repos/install/kalbot_interfaces/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/kalbot_controller build --build-base /home/alibaba/ros2_repos/build/kalbot_controller/build install --record /home/alibaba/ros2_repos/build/kalbot_controller/install.log --single-version-externally-managed

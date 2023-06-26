@@ -1,0 +1,173 @@
+[0.000000] (-) TimerEvent: {}
+[0.003509] (-) JobUnselected: {'identifier': 'kalbot_controller'}
+[0.004077] (kalbot_interfaces) JobQueued: {'identifier': 'kalbot_interfaces', 'dependencies': OrderedDict()}
+[0.004403] (kalbot_interfaces) JobStarted: {'identifier': 'kalbot_interfaces'}
+[0.096691] (-) TimerEvent: {}
+[0.149394] (kalbot_interfaces) JobProgress: {'identifier': 'kalbot_interfaces', 'progress': 'cmake'}
+[0.153278] (kalbot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/alibaba/ros2_repos/src/kalbot_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/alibaba/ros2_repos/install/kalbot_interfaces'], 'cwd': '/home/alibaba/ros2_repos/build/kalbot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'alibaba'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6179'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('HOME', '/home/alibaba'), ('OLDPWD', '/home/alibaba/ros2_repos/src'), ('DESKTOP_SESSION', 'LXDE'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/alibaba/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'alibaba'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c1'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/alibaba/.config'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/alibaba/.Xauthority'), ('XDG_DATA_HOME', '/home/alibaba/.local/share'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-4JjpO0Pz62mE/agent.5633'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/alibaba'), ('LC_NAME', 'tr_TR.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('_LXSESSION_PID', '5633'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/alibaba/ros2_repos/build/kalbot_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.204829] (-) TimerEvent: {}
+[0.307942] (-) TimerEvent: {}
+[0.409744] (-) TimerEvent: {}
+[0.511832] (-) TimerEvent: {}
+[0.613707] (-) TimerEvent: {}
+[0.715533] (-) TimerEvent: {}
+[0.817476] (-) TimerEvent: {}
+[0.919283] (-) TimerEvent: {}
+[0.925749] (kalbot_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[1.019806] (-) TimerEvent: {}
+[1.121652] (-) TimerEvent: {}
+[1.223299] (-) TimerEvent: {}
+[1.325498] (-) TimerEvent: {}
+[1.428063] (-) TimerEvent: {}
+[1.529864] (-) TimerEvent: {}
+[1.631689] (-) TimerEvent: {}
+[1.651906] (kalbot_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[1.702956] (kalbot_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.731911] (-) TimerEvent: {}
+[1.833588] (-) TimerEvent: {}
+[1.935389] (-) TimerEvent: {}
+[2.037313] (-) TimerEvent: {}
+[2.139025] (-) TimerEvent: {}
+[2.240904] (-) TimerEvent: {}
+[2.254695] (kalbot_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.265277] (kalbot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.341235] (-) TimerEvent: {}
+[2.443143] (-) TimerEvent: {}
+[2.545343] (-) TimerEvent: {}
+[2.647372] (-) TimerEvent: {}
+[2.749299] (-) TimerEvent: {}
+[2.825355] (kalbot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.849792] (-) TimerEvent: {}
+[2.870055] (kalbot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.950123] (-) TimerEvent: {}
+[3.052118] (-) TimerEvent: {}
+[3.154123] (-) TimerEvent: {}
+[3.256223] (-) TimerEvent: {}
+[3.358283] (-) TimerEvent: {}
+[3.460485] (-) TimerEvent: {}
+[3.562223] (-) TimerEvent: {}
+[3.664266] (-) TimerEvent: {}
+[3.765989] (-) TimerEvent: {}
+[3.867879] (-) TimerEvent: {}
+[3.969792] (-) TimerEvent: {}
+[4.071818] (-) TimerEvent: {}
+[4.174201] (-) TimerEvent: {}
+[4.276096] (-) TimerEvent: {}
+[4.377921] (-) TimerEvent: {}
+[4.479704] (-) TimerEvent: {}
+[4.528301] (kalbot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.554312] (kalbot_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.580091] (-) TimerEvent: {}
+[4.681751] (-) TimerEvent: {}
+[4.783694] (-) TimerEvent: {}
+[4.885653] (-) TimerEvent: {}
+[4.987455] (-) TimerEvent: {}
+[5.089390] (-) TimerEvent: {}
+[5.165765] (kalbot_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[5.171143] (kalbot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.189557] (-) TimerEvent: {}
+[5.291289] (-) TimerEvent: {}
+[5.393259] (-) TimerEvent: {}
+[5.495201] (-) TimerEvent: {}
+[5.597229] (-) TimerEvent: {}
+[5.699404] (-) TimerEvent: {}
+[5.782620] (kalbot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.799593] (-) TimerEvent: {}
+[5.821841] (kalbot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.900010] (-) TimerEvent: {}
+[6.001927] (-) TimerEvent: {}
+[6.103989] (-) TimerEvent: {}
+[6.205941] (-) TimerEvent: {}
+[6.307875] (-) TimerEvent: {}
+[6.409803] (-) TimerEvent: {}
+[6.511910] (-) TimerEvent: {}
+[6.613872] (-) TimerEvent: {}
+[6.715833] (-) TimerEvent: {}
+[6.817763] (-) TimerEvent: {}
+[6.919772] (-) TimerEvent: {}
+[7.021611] (-) TimerEvent: {}
+[7.123412] (-) TimerEvent: {}
+[7.225248] (-) TimerEvent: {}
+[7.327126] (-) TimerEvent: {}
+[7.429073] (-) TimerEvent: {}
+[7.530899] (-) TimerEvent: {}
+[7.632910] (-) TimerEvent: {}
+[7.734712] (-) TimerEvent: {}
+[7.836627] (-) TimerEvent: {}
+[7.938237] (-) TimerEvent: {}
+[8.040228] (-) TimerEvent: {}
+[8.142647] (-) TimerEvent: {}
+[8.244557] (-) TimerEvent: {}
+[8.346353] (-) TimerEvent: {}
+[8.448507] (-) TimerEvent: {}
+[8.467422] (kalbot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.522806] (kalbot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[8.548833] (-) TimerEvent: {}
+[8.650662] (-) TimerEvent: {}
+[8.753332] (-) TimerEvent: {}
+[8.796650] (kalbot_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[8.799043] (kalbot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.852747] (-) TimerEvent: {}
+[8.954638] (-) TimerEvent: {}
+[9.056703] (-) TimerEvent: {}
+[9.158468] (-) TimerEvent: {}
+[9.260440] (-) TimerEvent: {}
+[9.361900] (-) TimerEvent: {}
+[9.463830] (-) TimerEvent: {}
+[9.565485] (-) TimerEvent: {}
+[9.667089] (-) TimerEvent: {}
+[9.769209] (-) TimerEvent: {}
+[9.871157] (-) TimerEvent: {}
+[9.972901] (-) TimerEvent: {}
+[10.074397] (-) TimerEvent: {}
+[10.176266] (-) TimerEvent: {}
+[10.277987] (-) TimerEvent: {}
+[10.383136] (-) TimerEvent: {}
+[10.484967] (-) TimerEvent: {}
+[10.586876] (-) TimerEvent: {}
+[10.688664] (-) TimerEvent: {}
+[10.790558] (-) TimerEvent: {}
+[10.893189] (-) TimerEvent: {}
+[10.995023] (-) TimerEvent: {}
+[11.096928] (-) TimerEvent: {}
+[11.115907] (kalbot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)\n'}
+[11.197358] (-) TimerEvent: {}
+[11.299042] (-) TimerEvent: {}
+[11.401386] (-) TimerEvent: {}
+[11.503818] (-) TimerEvent: {}
+[11.605484] (-) TimerEvent: {}
+[11.707472] (-) TimerEvent: {}
+[11.809124] (-) TimerEvent: {}
+[11.910723] (-) TimerEvent: {}
+[12.012573] (-) TimerEvent: {}
+[12.021706] (kalbot_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1") \n'}
+[12.112918] (-) TimerEvent: {}
+[12.214564] (-) TimerEvent: {}
+[12.221170] (kalbot_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/eloquent/include  \n'}
+[12.314909] (-) TimerEvent: {}
+[12.416926] (-) TimerEvent: {}
+[12.456274] (kalbot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[12.517383] (-) TimerEvent: {}
+[12.619379] (-) TimerEvent: {}
+[12.721134] (-) TimerEvent: {}
+[12.823044] (-) TimerEvent: {}
+[12.924983] (-) TimerEvent: {}
+[13.026991] (-) TimerEvent: {}
+[13.129043] (-) TimerEvent: {}
+[13.218496] (kalbot_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/eloquent/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[13.221161] (kalbot_interfaces) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'msg/MotorCommand.msg' doesn't\n"}
+[13.222743] (kalbot_interfaces) StderrLine: {'line': b'  exist relative to the CMAKE_CURRENT_SOURCE_DIR\n'}
+[13.224337] (kalbot_interfaces) StderrLine: {'line': b"  '/home/alibaba/ros2_repos/src/kalbot_interfaces'\n"}
+[13.225599] (kalbot_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[13.226715] (kalbot_interfaces) StderrLine: {'line': b'  CMakeLists.txt:12 (rosidl_generate_interfaces)\n'}
+[13.228184] (kalbot_interfaces) StderrLine: {'line': b'\n'}
+[13.229719] (-) TimerEvent: {}
+[13.230826] (kalbot_interfaces) StderrLine: {'line': b'\n'}
+[13.235229] (kalbot_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[13.236993] (kalbot_interfaces) StdoutLine: {'line': b'See also "/home/alibaba/ros2_repos/build/kalbot_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[13.270845] (kalbot_interfaces) CommandEnded: {'returncode': 1}
+[13.330561] (-) TimerEvent: {}
+[13.437114] (-) TimerEvent: {}
+[13.544739] (-) TimerEvent: {}
+[13.560662] (kalbot_interfaces) JobEnded: {'identifier': 'kalbot_interfaces', 'rc': 1}
+[13.575352] (-) EventReactorShutdown: {}

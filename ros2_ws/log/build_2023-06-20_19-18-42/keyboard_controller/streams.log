@@ -1,0 +1,37 @@
+[11.603s] Invoking command in '/home/alibaba/ros2_repos/src/keyboard_controller': PYTHONPATH=/home/alibaba/ros2_repos/build/keyboard_controller/prefix_override:/home/alibaba/ros2_repos/install/keyboard_controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/keyboard_controller build --build-base /home/alibaba/ros2_repos/build/keyboard_controller/build install --record /home/alibaba/ros2_repos/build/keyboard_controller/install.log --single-version-externally-managed
+[15.565s] running egg_info
+[15.576s] creating ../../build/keyboard_controller/keyboard_controller.egg-info
+[15.579s] writing ../../build/keyboard_controller/keyboard_controller.egg-info/PKG-INFO
+[15.586s] writing dependency_links to ../../build/keyboard_controller/keyboard_controller.egg-info/dependency_links.txt
+[15.589s] writing entry points to ../../build/keyboard_controller/keyboard_controller.egg-info/entry_points.txt
+[15.593s] writing requirements to ../../build/keyboard_controller/keyboard_controller.egg-info/requires.txt
+[15.597s] writing top-level names to ../../build/keyboard_controller/keyboard_controller.egg-info/top_level.txt
+[15.599s] writing manifest file '../../build/keyboard_controller/keyboard_controller.egg-info/SOURCES.txt'
+[16.248s] reading manifest file '../../build/keyboard_controller/keyboard_controller.egg-info/SOURCES.txt'
+[16.271s] writing manifest file '../../build/keyboard_controller/keyboard_controller.egg-info/SOURCES.txt'
+[16.275s] running build
+[16.277s] running build_py
+[16.280s] creating /home/alibaba/ros2_repos/build/keyboard_controller/build
+[16.283s] creating /home/alibaba/ros2_repos/build/keyboard_controller/build/lib
+[16.285s] creating /home/alibaba/ros2_repos/build/keyboard_controller/build/lib/keyboard_controller
+[16.288s] copying keyboard_controller/keyboard_controller.py -> /home/alibaba/ros2_repos/build/keyboard_controller/build/lib/keyboard_controller
+[16.290s] copying keyboard_controller/__init__.py -> /home/alibaba/ros2_repos/build/keyboard_controller/build/lib/keyboard_controller
+[16.295s] running install
+[16.297s] running install_lib
+[16.300s] creating /home/alibaba/ros2_repos/install/keyboard_controller/lib/python3.6/site-packages/keyboard_controller
+[16.303s] copying /home/alibaba/ros2_repos/build/keyboard_controller/build/lib/keyboard_controller/keyboard_controller.py -> /home/alibaba/ros2_repos/install/keyboard_controller/lib/python3.6/site-packages/keyboard_controller
+[16.306s] copying /home/alibaba/ros2_repos/build/keyboard_controller/build/lib/keyboard_controller/__init__.py -> /home/alibaba/ros2_repos/install/keyboard_controller/lib/python3.6/site-packages/keyboard_controller
+[16.309s] byte-compiling /home/alibaba/ros2_repos/install/keyboard_controller/lib/python3.6/site-packages/keyboard_controller/keyboard_controller.py to keyboard_controller.cpython-36.pyc
+[16.317s] byte-compiling /home/alibaba/ros2_repos/install/keyboard_controller/lib/python3.6/site-packages/keyboard_controller/__init__.py to __init__.cpython-36.pyc
+[16.320s] running install_data
+[16.326s] creating /home/alibaba/ros2_repos/install/keyboard_controller/share/ament_index
+[16.329s] creating /home/alibaba/ros2_repos/install/keyboard_controller/share/ament_index/resource_index
+[16.332s] creating /home/alibaba/ros2_repos/install/keyboard_controller/share/ament_index/resource_index/packages
+[16.334s] copying resource/keyboard_controller -> /home/alibaba/ros2_repos/install/keyboard_controller/share/ament_index/resource_index/packages
+[16.335s] copying package.xml -> /home/alibaba/ros2_repos/install/keyboard_controller/share/keyboard_controller
+[16.337s] running install_egg_info
+[16.359s] Copying ../../build/keyboard_controller/keyboard_controller.egg-info to /home/alibaba/ros2_repos/install/keyboard_controller/lib/python3.6/site-packages/keyboard_controller-0.0.0-py3.6.egg-info
+[16.373s] running install_scripts
+[16.695s] Installing keyboard_controller script to /home/alibaba/ros2_repos/install/keyboard_controller/lib/keyboard_controller
+[16.700s] writing list of installed files to '/home/alibaba/ros2_repos/build/keyboard_controller/install.log'
+[17.050s] Invoked command in '/home/alibaba/ros2_repos/src/keyboard_controller' returned '0': PYTHONPATH=/home/alibaba/ros2_repos/build/keyboard_controller/prefix_override:/home/alibaba/ros2_repos/install/keyboard_controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/keyboard_controller build --build-base /home/alibaba/ros2_repos/build/keyboard_controller/build install --record /home/alibaba/ros2_repos/build/keyboard_controller/install.log --single-version-externally-managed

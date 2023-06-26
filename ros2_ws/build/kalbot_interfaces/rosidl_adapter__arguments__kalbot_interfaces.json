@@ -1,0 +1,7 @@
+{
+  "package_name": "kalbot_interfaces",
+  "non_idl_tuples": [
+    "/home/alibaba/ros2_repos/src/kalbot_interfaces:msg/MotorCommand.msg",
+    "/home/alibaba/ros2_repos/src/kalbot_interfaces:srv/SetMotorSpeed.srv"
+  ]
+}

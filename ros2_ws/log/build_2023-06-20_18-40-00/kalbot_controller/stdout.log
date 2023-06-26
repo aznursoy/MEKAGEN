@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/kalbot_controller/kalbot_controller.egg-info
+writing ../../build/kalbot_controller/kalbot_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/kalbot_controller/kalbot_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/kalbot_controller/kalbot_controller.egg-info/entry_points.txt
+writing requirements to ../../build/kalbot_controller/kalbot_controller.egg-info/requires.txt
+writing top-level names to ../../build/kalbot_controller/kalbot_controller.egg-info/top_level.txt
+writing manifest file '../../build/kalbot_controller/kalbot_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/kalbot_controller/kalbot_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/kalbot_controller/kalbot_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/alibaba/ros2_repos/build/kalbot_controller/build
+creating /home/alibaba/ros2_repos/build/kalbot_controller/build/lib
+creating /home/alibaba/ros2_repos/build/kalbot_controller/build/lib/kalbot_controller
+copying kalbot_controller/__init__.py -> /home/alibaba/ros2_repos/build/kalbot_controller/build/lib/kalbot_controller
+running install
+running install_lib
+creating /home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller
+copying /home/alibaba/ros2_repos/build/kalbot_controller/build/lib/kalbot_controller/__init__.py -> /home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller
+byte-compiling /home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller/__init__.py to __init__.cpython-36.pyc
+running install_data
+creating /home/alibaba/ros2_repos/install/kalbot_controller/share/ament_index
+creating /home/alibaba/ros2_repos/install/kalbot_controller/share/ament_index/resource_index
+creating /home/alibaba/ros2_repos/install/kalbot_controller/share/ament_index/resource_index/packages
+copying resource/kalbot_controller -> /home/alibaba/ros2_repos/install/kalbot_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/alibaba/ros2_repos/install/kalbot_controller/share/kalbot_controller
+running install_egg_info
+Copying ../../build/kalbot_controller/kalbot_controller.egg-info to /home/alibaba/ros2_repos/install/kalbot_controller/lib/python3.6/site-packages/kalbot_controller-0.0.0-py3.6.egg-info
+running install_scripts
+writing list of installed files to '/home/alibaba/ros2_repos/build/kalbot_controller/install.log'

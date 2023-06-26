@@ -1,0 +1,33 @@
+[0.163s] Invoking command in '/home/alibaba/ros2_repos/build/kalbot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/alibaba/ros2_repos/src/kalbot_interfaces -DCMAKE_INSTALL_PREFIX=/home/alibaba/ros2_repos/install/kalbot_interfaces
+[0.923s] -- The C compiler identification is GNU 7.5.0
+[1.649s] -- The CXX compiler identification is GNU 7.5.0
+[1.700s] -- Check for working C compiler: /usr/bin/cc
+[2.252s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.262s] -- Detecting C compiler ABI info
+[2.822s] -- Detecting C compiler ABI info - done
+[2.867s] -- Detecting C compile features
+[4.525s] -- Detecting C compile features - done
+[4.551s] -- Check for working CXX compiler: /usr/bin/c++
+[5.163s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.168s] -- Detecting CXX compiler ABI info
+[5.780s] -- Detecting CXX compiler ABI info - done
+[5.819s] -- Detecting CXX compile features
+[8.465s] -- Detecting CXX compile features - done
+[8.520s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[8.794s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[8.796s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.113s] -- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+[12.019s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[12.218s] -- Found FastRTPS: /opt/ros/eloquent/include  
+[12.453s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[13.216s] CMake Error at /opt/ros/eloquent/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[13.218s]   rosidl_generate_interfaces() the passed file 'msg/MotorCommand.msg' doesn't
+[13.220s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[13.221s]   '/home/alibaba/ros2_repos/src/kalbot_interfaces'
+[13.222s] Call Stack (most recent call first):
+[13.223s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[13.225s] 
+[13.227s] 
+[13.232s] -- Configuring incomplete, errors occurred!
+[13.234s] See also "/home/alibaba/ros2_repos/build/kalbot_interfaces/CMakeFiles/CMakeOutput.log".
+[13.271s] Invoked command in '/home/alibaba/ros2_repos/build/kalbot_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/alibaba/ros2_repos/src/kalbot_interfaces -DCMAKE_INSTALL_PREFIX=/home/alibaba/ros2_repos/install/kalbot_interfaces

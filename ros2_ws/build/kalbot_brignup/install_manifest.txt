@@ -1,0 +1,16 @@
+/home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/launch/demo.launch.py
+/home/alibaba/ros2_repos/install/kalbot_brignup/share/ament_index/resource_index/package_run_dependencies/kalbot_brignup
+/home/alibaba/ros2_repos/install/kalbot_brignup/share/ament_index/resource_index/parent_prefix_path/kalbot_brignup
+/home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/environment/ament_prefix_path.sh
+/home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/environment/ament_prefix_path.dsv
+/home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/environment/path.sh
+/home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/environment/path.dsv
+/home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/local_setup.bash
+/home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/local_setup.sh
+/home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/local_setup.zsh
+/home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/local_setup.dsv
+/home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/package.dsv
+/home/alibaba/ros2_repos/install/kalbot_brignup/share/ament_index/resource_index/packages/kalbot_brignup
+/home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/cmake/kalbot_brignupConfig.cmake
+/home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/cmake/kalbot_brignupConfig-version.cmake
+/home/alibaba/ros2_repos/install/kalbot_brignup/share/kalbot_brignup/package.xml
