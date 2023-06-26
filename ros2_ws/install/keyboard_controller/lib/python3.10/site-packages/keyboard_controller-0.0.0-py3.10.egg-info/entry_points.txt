@@ -1,3 +1,0 @@
-[console_scripts]
-keyboard_controller = keyboard_controller.keyboard_controller:main
-

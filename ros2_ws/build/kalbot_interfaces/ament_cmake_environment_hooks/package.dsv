@@ -1,4 +1,0 @@
-source;share/kalbot_interfaces/local_setup.bash
-source;share/kalbot_interfaces/local_setup.dsv
-source;share/kalbot_interfaces/local_setup.sh
-source;share/kalbot_interfaces/local_setup.zsh

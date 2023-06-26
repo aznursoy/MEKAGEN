@@ -1,5 +1,0 @@
-source;share/kalbot_brignup/local_setup.bash
-source;share/kalbot_brignup/local_setup.dsv
-source;share/kalbot_brignup/local_setup.ps1
-source;share/kalbot_brignup/local_setup.sh
-source;share/kalbot_brignup/local_setup.zsh

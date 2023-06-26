@@ -1,1 +1,0 @@
-/home/zubeyir48/ros2_ME462_ws/src/tutorial_robot_controller/setup.py

@@ -1,9 +1,0 @@
-/home/zubeyir48/ros2_ME462_ws/src/kalbot_brignup/build/kalbot_brignup/CMakeFiles/uninstall.dir
-/home/zubeyir48/ros2_ME462_ws/src/kalbot_brignup/build/kalbot_brignup/CMakeFiles/kalbot_brignup_uninstall.dir
-/home/zubeyir48/ros2_ME462_ws/src/kalbot_brignup/build/kalbot_brignup/CMakeFiles/test.dir
-/home/zubeyir48/ros2_ME462_ws/src/kalbot_brignup/build/kalbot_brignup/CMakeFiles/edit_cache.dir
-/home/zubeyir48/ros2_ME462_ws/src/kalbot_brignup/build/kalbot_brignup/CMakeFiles/rebuild_cache.dir
-/home/zubeyir48/ros2_ME462_ws/src/kalbot_brignup/build/kalbot_brignup/CMakeFiles/list_install_components.dir
-/home/zubeyir48/ros2_ME462_ws/src/kalbot_brignup/build/kalbot_brignup/CMakeFiles/install.dir
-/home/zubeyir48/ros2_ME462_ws/src/kalbot_brignup/build/kalbot_brignup/CMakeFiles/install/local.dir
-/home/zubeyir48/ros2_ME462_ws/src/kalbot_brignup/build/kalbot_brignup/CMakeFiles/install/strip.dir
