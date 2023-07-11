@@ -1,1 +1,1 @@
-# Some serious stuff :')
+# During the first design steps, we though that it would be enough to have a 80mm height between floors, yet it seem be to be a little bit inconvient for changing electronic parts on floors. Hence, lately it is decided to have 100mm height between floors but 80mm.
